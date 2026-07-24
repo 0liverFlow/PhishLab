@@ -127,13 +127,13 @@ Disable the **auto-renew** button when confirming your order, otherwise your sub
 
 Click on **Pay Now** after reviewing the details of your purchase and agreeing to the Terms of Service:  
 
-<img width="1421" height="601" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/625136564-36118e98-e746-41e1-bf7b-5bb2ba8ba3d2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T011742Z&X-Amz-Expires=300&X-Amz-Signature=5703fca12c67346a601250f71824ed2e9078a8ed63b61c8e52cc616c257f292c&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1421" height="601" alt="image" src="https://github.com/user-attachments/assets/5891cc18-23e6-4055-9534-c6ba55ef3e1a" />
 
 <br></br>
 
 Going back to your [dashboard](https://ap.www.namecheap.com/dashboard), you should see a server icon next to your domain name:  
 
-<img width="1116" height="117" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/625138635-b271e60e-4767-4a69-a078-27c07915b942.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T011758Z&X-Amz-Expires=300&X-Amz-Signature=b7ebc9584766dd26f99c413c42db683119c163506815bbbe4bd201b7824bc91a&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1116" height="117" alt="image" src="https://github.com/user-attachments/assets/6940ad1a-5e82-4d76-afac-73a6c5958dba" />
 
 <img width="1427" height="65" alt="image" src="https://github.com/user-attachments/assets/3dced6e7-f97e-40bd-8a7f-e724f39303a9" />  
 
@@ -141,23 +141,23 @@ Going back to your [dashboard](https://ap.www.namecheap.com/dashboard), you shou
 
 > Note that the VPS activation takes some time (**generally 15 minutes**). Therefore be patient. Once the VPS activated, you will receive the IP address and credentials in your mailbox.  
 
-<img width="1247" height="786" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/620308647-76f7ade8-2427-40d9-85fa-94538fcb803d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T011811Z&X-Amz-Expires=300&X-Amz-Signature=4676b54c37cf1cf10aa200d73dc7a3d1fdb187ddf0c7d77a0d486ddef4638127&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1247" height="786" alt="image" src="https://github.com/user-attachments/assets/7f98e470-1fe1-4188-91d7-a212d2c006ad" />
 
 At the bottom of the mail, you will find your SSH credentials as well as the credentials to log in to the VPS admin panel.  
 
 To manage your VPS, click on the `Hosting List` section, then click on `GO TO VPS PANEL`:  
 
-<img width="1432" height="352" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621317943-1fa32f1a-bf59-42c3-9fc3-66446e7f1ec9.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T011825Z&X-Amz-Expires=300&X-Amz-Signature=e02c4558fe1b5cbd88f2a907ff30c7769751aad7e1cd3f9a39a0d604398a6f9d&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1432" height="352" alt="image" src="https://github.com/user-attachments/assets/b1290754-1260-4cf9-a82f-98a9a18f3c14" />
 
 <br></br>
 
-<img width="1187" height="862" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/620309159-99b5a643-8e9e-417f-9e09-81787ed9f7db.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T011843Z&X-Amz-Expires=300&X-Amz-Signature=45851c80d0d76026b0828a82927b7bd39fc739a756408a1022154cab1720571d&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1187" height="862" alt="image" src="https://github.com/user-attachments/assets/9a743454-29c5-45b9-9e05-69580fb9cf9e" />
 
 ## VPS Configuration
 
 Before trying to authenticate to your VPS, it must be online.  
 
-<img width="572" height="272" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/620395493-ac647d81-64ca-4fd7-ac1b-f265ef01bcb3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T011903Z&X-Amz-Expires=300&X-Amz-Signature=6a7e873bc235a89f33a0467a8253fc759e10780a640ed422eacccc25dd126aa5&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="572" height="272" alt="image" src="https://github.com/user-attachments/assets/7e3ae664-2b1e-4351-9edd-6822f01ce59f" />
 
 Once this check done, you can use `ssh` to remotely access your server with the credentials provided in the mail you received:  
 
@@ -165,7 +165,7 @@ Once this check done, you can use `ssh` to remotely access your server with the 
 ssh root@<vps_ip_address>
 ```
 
-<img width="1442" height="807" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/620391992-ca6e9e35-9ec9-4606-8baa-abd1d922497f.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T011920Z&X-Amz-Expires=300&X-Amz-Signature=4b435c4adb70c8ea22e1347802557e168299b63d83e4327f359d75c559cc9502&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1442" height="807" alt="image" src="https://github.com/user-attachments/assets/e563f583-39b5-47c4-907f-ae329b0a2696" />
 
 One of the first command to execute after connecting to your VPS is:  
 
@@ -179,7 +179,7 @@ You can then generate an SSH key pair and disable password authentication for se
 ssh-keygen -t ed25519 -N '' -f id_ed25519
 ```
 
-<img width="1282" height="467" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/620392164-288d4b53-c4e1-4a6b-9c1f-25a60954f8a5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T011934Z&X-Amz-Expires=300&X-Amz-Signature=ed7d8edc016802b6dafe6ea7a8d7d96f4d9f305927d03b3acd71bda89705aaa8&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1282" height="467" alt="image" src="https://github.com/user-attachments/assets/6a0b477f-5de5-4c5b-9241-fe780b43733b" />
 
 Copy your public key in the `.ssh` directory of your root user:  
 
@@ -187,9 +187,10 @@ Copy your public key in the `.ssh` directory of your root user:
 ssh-copy-id -i ~/.ssh/id_ed25519.pub root@<vps_ip_address>
 ```
 
-<img width="1515" height="347" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/620392539-5d6fb494-4409-4818-a11b-6ddae00b4550.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T011948Z&X-Amz-Expires=300&X-Amz-Signature=356426a533ce6dd4b650a6398bd9b644a2872d84a6a619dba0770317fa1c9b85&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1515" height="347" alt="image" src="https://github.com/user-attachments/assets/a49d60f5-e749-4aec-b4ef-e5b59b8ecd17" />
 
-<img width="1397" height="657" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/620392618-d01aadad-0a90-4c1c-830a-1aedd33aa602.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012003Z&X-Amz-Expires=300&X-Amz-Signature=1f95c5a84f29f069e6759d3cb2569cbbf0dd95a7577f8a89bb60d9e02e16f4e1&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1397" height="657" alt="image" src="https://github.com/user-attachments/assets/b4c06cb6-81b1-4849-b742-fa74bfe62d94" />
+
 
 To disable SSH password authentication, use this command:  
 
@@ -197,7 +198,7 @@ To disable SSH password authentication, use this command:
 nano /etc/ssh/sshd_config
 ```
 
-<img width="942" height="96" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/625142584-1854c31c-5341-4888-b669-45852662ca70.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012015Z&X-Amz-Expires=300&X-Amz-Signature=1f0213fd9905fb145015c7ae09d9159f7f2976fddc4f9214606cbbf7481671d0&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="942" height="96" alt="image" src="https://github.com/user-attachments/assets/7a8af0ea-a560-4cb3-af18-b24a117f4ff0" />
 
 ```bash
 systemctl restart ssh.service
