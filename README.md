@@ -57,7 +57,7 @@ To purchase a domain name you can use [Namecheap](https://www.namecheap.com/doma
 
 As you can see below, I entered **phishlab** in the search bar, and Namecheap returned some results like `phishlab.inc`, `phishlab.online`, etc.  
 
-<img width="1060" height="749" alt="image" src="https://github.com/user-attachments/assets/94e2492f-652c-4757-ab46-09ac11865f3c" />
+<img width="1060" height="749" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621289226-94e2492f-652c-4757-ab46-09ac11865f3c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T011142Z&X-Amz-Expires=300&X-Amz-Signature=c3479d0f7bea294a1c94be91157602893ef9d9c8a6a7d3eb3db9ed660fdc3f9e&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
 
 Depending on your budget, add a domain name to your cart, then follow the next instructions.  
 
@@ -65,7 +65,7 @@ Depending on your budget, add a domain name to your cart, then follow the next i
 
 Before confirming your order, make sure you disable the **auto-renew** option for your domain. If enabled, this will automatically renew your subscription. Once done, click on `Confirm Order`.  
 
-<img width="1356" height="647" alt="image" src="https://github.com/user-attachments/assets/99295cc6-0753-4bbd-9a3b-ef8480cc0308" />
+<img width="1356" height="647" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621287108-99295cc6-0753-4bbd-9a3b-ef8480cc0308.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T011429Z&X-Amz-Expires=300&X-Amz-Signature=b0397563dc2757098ee88948fb7697149bc0aa6eb48aedbf78cedea6b9e687f1&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
 
 <br></br>
 
@@ -74,7 +74,7 @@ Before confirming your order, make sure you disable the **auto-renew** option fo
 The final step consists of purchasing your domain name after entering your credit card information.  
 Moreover do not select any additional options if not required. Once done, click on `Continue`.  
 
-<img width="1341" height="636" alt="image" src="https://github.com/user-attachments/assets/e082ae3b-2aa3-430a-a2c6-77d3929a7ef9" />
+<img width="1341" height="636" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621287825-e082ae3b-2aa3-430a-a2c6-77d3929a7ef9.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T011445Z&X-Amz-Expires=300&X-Amz-Signature=70a848090fc84030e116f164776d50c3ec353b4ea0bab73f95880dd34bb70aca&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
 
 <br></br>
 
@@ -82,7 +82,7 @@ Moreover do not select any additional options if not required. Once done, click 
 
 Here is how to access your domain:  
 
-<img width="1372" height="496" alt="image" src="https://github.com/user-attachments/assets/7e7bb729-a302-4006-adb7-a15853c698f5" />
+<img width="1372" height="496" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621283869-7e7bb729-a302-4006-adb7-a15853c698f5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T011537Z&X-Amz-Expires=300&X-Amz-Signature=bb76e74cfe91917a7e65e7225a3c1d7472c74e93efdd1850b7ac166f88153fef&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
 
 # VPS Purchase
 
@@ -99,19 +99,19 @@ Here are the steps to buy a VPS on Namecheap:
 
 **1/ Select your VPS formula**  
 
-<img width="1532" height="997" alt="image" src="https://github.com/user-attachments/assets/934d7bb6-e84e-4e17-a03a-0c5527e4a3ec" />  
+<img width="1532" height="997" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621305674-934d7bb6-e84e-4e17-a03a-0c5527e4a3ec.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T011555Z&X-Amz-Expires=300&X-Amz-Signature=4c95fbb201645efafd9ff309be009c426e669628e720d1ca9218a6a0fadecfac&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />  
 
 <br></br>
 
 Do not select any additional CPU, memory or hard drive space as this will cost you extra fees.  
   
-<img width="1422" height="882" alt="image" src="https://github.com/user-attachments/assets/2ed0cf03-b123-4656-a44c-aa10f9001f4a" />  
+<img width="1422" height="882" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/620304926-2ed0cf03-b123-4656-a44c-aa10f9001f4a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T011611Z&X-Amz-Expires=300&X-Amz-Signature=980d100c2420c36db8b01cd17ac3c0d3e02a3a0152a4d0fdff4b45e56a791a0d&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />  
 
 <br></br>
 
 **2/ Configure your VPS domain name, then add it to your cart**  
   
-<img width="1421" height="601" alt="image" src="https://github.com/user-attachments/assets/bbc8c4ec-5e67-480e-853c-775d93ea5caf" />
+<img width="1421" height="601" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/625137289-bbc8c4ec-5e67-480e-853c-775d93ea5caf.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T011627Z&X-Amz-Expires=300&X-Amz-Signature=f3b84d4104bcda4b0a69374c92e20e0b9bed2bb4dd141a8f1aaa379eb509027c&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
 
 <br></br>
 
@@ -119,7 +119,7 @@ Do not select any additional CPU, memory or hard drive space as this will cost y
 
 Disable the **auto-renew** button when confirming your order, otherwise your subscription will automatically be renewed after its expiration.  
 
-<img width="1362" height="647" alt="image" src="https://github.com/user-attachments/assets/68d8171d-b543-4ac0-85b4-f67a2205553e" />
+<img width="1362" height="647" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/625134364-68d8171d-b543-4ac0-85b4-f67a2205553e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T011645Z&X-Amz-Expires=300&X-Amz-Signature=bc2a73f3c6fbdfcc2af932f89499eb9cb0b69ae6bb41dfc29724eebea9776b04&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
 
 <br></br>
 
