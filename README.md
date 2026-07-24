@@ -916,7 +916,7 @@ To fix that, use this command:
 phishlets hostname wordpress.org <your_phishing_domain>
 ```
 
-<img width="1005" height="53" alt="image" src="" />
+<img width="1005" height="53" alt="image" src="https://github.com/user-attachments/assets/ef6b73d8-033e-4dfb-befe-0d761a39e442" />
 
 <img width="1122" height="210" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621059104-28729bfa-9d32-4c9d-9ab7-d85b23027f1d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021654Z&X-Amz-Expires=300&X-Amz-Signature=b0c9d450e6736fb6229d578c6383fd65c25fe3c745d87d86b087cace17861ccb&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
 
