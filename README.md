@@ -841,7 +841,7 @@ cd phishlets/
 cat example.yaml
 ```
 
-<img width="1906" height="647" alt="image" src="https://github.com/user-attachments/assets/6aaac44b-8516-4743-8ad4-6a51cb06446a" />
+<img width="1906" height="647" alt="image" src="https://github.com/user-attachments/assets/7e57b93c-eaf9-4a0b-8b8d-5e27aacab63a" />
 
 Refer to the command below to download more phishlets [here](https://github.com/An0nUD4Y/Evilginx-Phishlets).  
 
@@ -849,11 +849,12 @@ Refer to the command below to download more phishlets [here](https://github.com/
 git clone https://github.com/An0nUD4Y/Evilginx-Phishlets.git
 ```
 
-<img width="1287" height="211" alt="image" src="https://github.com/user-attachments/assets/3a2976ad-646a-456a-9dcc-20f5dab2cb40" />
+<img width="1287" height="211" alt="image" src="https://github.com/user-attachments/assets/2efe313a-4a6b-47cc-8dd6-46e05c13ece1" />
 
 > Note that you can also create your own [phishlets](https://help.evilginx.com/pro/phishlets/) if you want to.  
 
-<img width="1825" height="497" alt="image" src="https://github.com/user-attachments/assets/dd728522-d13c-49d2-a439-8bc37edd1125" />
+
+
 
 Let's use the `wordpress.org.yaml` phishlet to better understand the structure of a phishlet:  
 
