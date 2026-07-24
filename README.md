@@ -1,4 +1,4 @@
-# Context
+<img width="1676" height="821" alt="image" src="https://github.com/user-attachments/assets/b4f5a0b3-631e-4528-aee7-a019245f173a" /># Context
 
 The goal of this lab is to help pentesters learn how to conduct a phishing campaign using GoPhish and Evilginx. It covers SMTP relay service configuration, GoPhish and Evilginx installation and configuration, domain name and VPS purchase, TLS certificate configuration, and defensive measures to detect a phishing website.  
 
@@ -221,7 +221,7 @@ apt install -y unzip
 unzip ./gophish-v0.12.1-linux-64bit.zip -d gophish
 ```
 
-<img width="982" height="62" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/620393738-250bc196-c51c-4b7d-ad21-ed291f6cb604.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012032Z&X-Amz-Expires=300&X-Amz-Signature=ca64ea069ce5cbda2232ebe375099a62b25a36d18f502b950aa0fc0d07c4d67e&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="982" height="62" alt="image" src="https://github.com/user-attachments/assets/2b71f13f-e5e6-4adb-8158-c8e03129470c" />
 
 
 ## Configuration
@@ -236,7 +236,7 @@ To check the status of the firewall, use this command:
 ufw status
 ```
 
-<img width="815" height="61" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/620394134-aee3d640-c4cd-4dfb-99cf-2643ccdb0bac.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012048Z&X-Amz-Expires=300&X-Amz-Signature=6ac8ae34cc0c9cf126e429ffe0c5efa7ee4195d59771d560f0b5cddf61f5225b&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="815" height="61" alt="image" src="https://github.com/user-attachments/assets/8ad5fd06-a51c-42ad-84dd-8a24f712f428" />
 
 As you can see, the firewall is disabled (inactive). To enable it, use this command:  
 
@@ -244,7 +244,7 @@ As you can see, the firewall is disabled (inactive). To enable it, use this comm
 ufw enable
 ```
 
-<img width="1021" height="87" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/620394818-286b033e-98dd-4989-bfb9-69c22b4dde2e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012103Z&X-Amz-Expires=300&X-Amz-Signature=092a2dbe0362a82d22cd9eb52ea49b77d025a00cb88fe7f23515335218129875&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1021" height="87" alt="image" src="https://github.com/user-attachments/assets/393c0cff-c252-4fb1-8f25-7bccb5f358a2" />
 
 After enabling the firewall, open ports 80, 443, and 22:  
 
@@ -260,7 +260,7 @@ Once done, you can check if the settings were properly applied using this comman
 ufw status
 ```
 
-<img width="957" height="292" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/620394882-5ea36b3e-b914-461c-ad0f-01ae68b2abdb.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012116Z&X-Amz-Expires=300&X-Amz-Signature=87cc890169ddef10fdf755f04ef2fe938e7d14b4cb48781a5323ff1853bede2a&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="957" height="292" alt="image" src="https://github.com/user-attachments/assets/59e73246-12cd-4e75-97e6-5f0489841ba0" />
 
 Let's now configure our SMTP relay service.  
 
@@ -270,53 +270,53 @@ There are numerous SMTP relay services (Google Workplace, SendGrid, Mailgun, Mai
 
 To start with SendGrid, you will need to configure the domain name from which your emails will be sent. To do that, go to `Settings > Sender Authentication`, then click on `Authenticate your Domain`:  
 
-<img width="882" height="879" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621340674-cb15a912-e505-4e1d-a32e-dc61e485ef98.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012132Z&X-Amz-Expires=300&X-Amz-Signature=f896af48562ea830b9e2cd81a0d751b83aab1a81627d03c7a38a10a494af9ef4&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="882" height="879" alt="image" src="https://github.com/user-attachments/assets/5f64af73-c8d1-44ea-af8f-d20183f15331" />
 
 After that, specify your phishing domain name, then click on next:  
 
-<img width="1377" height="500" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621341452-e0c98ebb-274b-4fc8-8f73-12b259ac32e2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012148Z&X-Amz-Expires=300&X-Amz-Signature=0a4ae1ca0a0127b34a069f39785bc75bc8e37dbe85af57d92013a5cf7833d6ce&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1377" height="500" alt="image" src="https://github.com/user-attachments/assets/85512bef-f4d6-4345-8925-008ae2003aa9" />
 
 Then, you will need to add the following DNS records to your domain:  
 
-<img width="1667" height="822" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621343863-117f1601-0046-473d-8893-ad61fb2db6d3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012203Z&X-Amz-Expires=300&X-Amz-Signature=2d023ede5807e1c57b41e59997aad6778676d1ea869b91a86154f5f605907b62&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1667" height="822" alt="image" src="https://github.com/user-attachments/assets/9d3b9e94-9dc6-428c-8fa0-9c1d8a3d77e9" />
 
 To do that, go back to Namecheap's `Domain List`, then click on `Manage`:  
 
-<img width="1400" height="681" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621345347-7989ad29-8b5e-400c-bf57-d8345c40cdbd.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012216Z&X-Amz-Expires=300&X-Amz-Signature=ec2b4bb2958f57079b23ea600a046137c0a52ad5fd651620632833f0c3521a74&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1400" height="681" alt="image" src="https://github.com/user-attachments/assets/114d7d72-8de7-4f17-ab6a-d3c14d807a64" />
 
 Next, click on `Advanced DNS`:  
 
-<img width="1358" height="557" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621346362-daf41839-c98f-4cb3-a03e-4ba0e140b3b2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012229Z&X-Amz-Expires=300&X-Amz-Signature=65893ea4c0b9d05811a51c138c69b26efd343696dfc226e9b02d24fb71e7eea8&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1358" height="557" alt="image" src="https://github.com/user-attachments/assets/4be1fafb-4a57-4438-a65e-c7da8ad4aa69" />
 
 Finally, go down and click on the `ADD NEW RECORD` button:  
 
-<img width="1104" height="362" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621347231-4d1d1cf4-0c02-4bdb-9d60-25214e674350.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012242Z&X-Amz-Expires=300&X-Amz-Signature=de33a51f9891485ad7f3d750c65a79af84690a554ad69a0427d91b39c3f4293a&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1104" height="362" alt="image" src="https://github.com/user-attachments/assets/18dcd9d4-7d7d-46c3-9ff0-dc7cc030c5b2" />
 
 After adding all the records highlighted above, go back to SendGrid and check the box `I've added these records`, then click on Verify:  
 
-<img width="1676" height="821" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621351229-e0d49263-f10d-4c99-a751-f81233cc14d7.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012257Z&X-Amz-Expires=300&X-Amz-Signature=3870bfcdfe6e5f30bcf9c2bb2cfea5a33824f21013700d0019abd6c33c861080&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1676" height="821" alt="image" src="https://github.com/user-attachments/assets/a7a1651b-3437-4d9d-a4a1-d2882b76bf9e" />
 
 If everything goes as planned, you must see a new column `Status` with the value `Verified`:  
 
-<img width="1878" height="792" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621352948-feadd56c-9ca3-41a4-adb1-f5b7afc310b6.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012310Z&X-Amz-Expires=300&X-Amz-Signature=ecbbe6ff68b63782f0a541351cb1b5fa524834866aba5e1b465769e9bf57c145&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1878" height="792" alt="image" src="https://github.com/user-attachments/assets/fe8b6822-caa5-455e-9e8d-16c42f07d66c" />
 
 To get the SMTP server information (user, password, email server, etc.), go to `Email API > Integration Guide`, then select `SMTP Relay`:  
 
-<img width="1587" height="630" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621357731-b70febaa-d72e-48a6-acc1-418619311c09.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012324Z&X-Amz-Expires=300&X-Amz-Signature=eba0cb1037c9556c52f90922d79aceed22f957e6b9d0331e08e37b187993d358&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1587" height="630" alt="image" src="https://github.com/user-attachments/assets/2a8ca40d-c15a-41ff-9ec3-be621052200e" />
 
 <br></br>
 
-<img width="1420" height="767" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/625143745-20fdc9b6-b0a0-42ac-84d8-bdb915d0f99d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012338Z&X-Amz-Expires=300&X-Amz-Signature=7bbc324fd7662c519858dcb0f7d93d2a58d019c861145394564932052f587565&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1420" height="767" alt="image" src="https://github.com/user-attachments/assets/e7820695-497a-4dbf-b2b9-136bd31d39c9" />
 
 As you can see, the server name and username are respectively **smtp.sendgrid.net** and **apikey**. The password is your API key.  
 
 To generate an API key, go to `Settings > API Keys`, then create a new API Key:  
 
-<img width="1797" height="716" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/625143874-bd07049c-c8ab-4469-8f5d-93e4f80240cb.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012349Z&X-Amz-Expires=300&X-Amz-Signature=5f23b74b0fe2e78343ab79379363a8cb618739ef5d296a429abff7efa4a235f7&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1797" height="716" alt="image" src="https://github.com/user-attachments/assets/50ba5422-5606-47a1-b103-831890e8c17e" />
 
 <br></br>
 
-<img width="797" height="362" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/620398821-c513f5f7-4f5a-47ee-bf7d-1e7ac42b1adc.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012402Z&X-Amz-Expires=300&X-Amz-Signature=3395f93b97aee620e021fdda894082d07b006e2f39807509c0b662c26efbd348&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="797" height="362" alt="image" src="https://github.com/user-attachments/assets/bdb74c0d-6dbe-4fed-a025-30b7046e3042" />
 
 Make sure to copy your API Key in a secure place as you won't be able to retrieve it again.  
 Well, let's now configure GoPhish's admin panel server.  
@@ -327,7 +327,7 @@ To configure GoPhish, we are going to edit the `config.json` file located in GoP
 
 Here is its default content:  
 
-<img width="1212" height="607" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/619098516-7876a9c7-0b03-458d-a629-288dde222f80.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012416Z&X-Amz-Expires=300&X-Amz-Signature=61823ab9b557bf96c975ec8ab8981c849708c3894b4469e2cc6d982672ffa19f&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1212" height="607" alt="image" src="https://github.com/user-attachments/assets/086faf45-fdcd-4f0e-b689-53ba46f57b80" />
 
 To start, change the `listen_url` of your Gophish Admin Server to `0.0.0.0:3333` to listen on all interfaces. To do that, you can use your favorite command line editor, or simply use this command:  
 
@@ -335,7 +335,7 @@ To start, change the `listen_url` of your Gophish Admin Server to `0.0.0.0:3333`
 sed -i 's/127.0.0.1/0.0.0.0/g' config.json
 ```
 
-<img width="1035" height="192" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621408138-64b58c20-206d-484e-9ec8-a91af5db3bdc.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012428Z&X-Amz-Expires=300&X-Amz-Signature=89f8570a6ab03db4ba4b06a7163b0127b3556ccf2ea4a28e67d160e8077b9880&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1035" height="192" alt="image" src="https://github.com/user-attachments/assets/df6b2638-844a-43fc-8af3-f2544a6fc540" />
 
 If you do not want to change the local IP address to `0.0.0.0`, you could use a SSH local port forwarding from your attacker machine:  
 
@@ -364,7 +364,7 @@ ExecStart=$HOME/gophish/gophish
 WantedBy=multi-user.target
 ```
 
-<img width="972" height="287" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/619103372-567f895c-6c79-4084-8f99-7e87fb8d81a5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012450Z&X-Amz-Expires=300&X-Amz-Signature=16a4f07ee420659b78cd08c201cdad440a817896c91f9a6ab41bbd53e39e5e64&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="972" height="287" alt="image" src="https://github.com/user-attachments/assets/79a251bf-81de-48e2-b854-ae960ef8872f" />
 
 > Do not hesitate to change `$HOME/gophish/` if you installed GoPhish in another directory.  
 
@@ -374,7 +374,7 @@ Once done, you can enable your `GoPhish` service using this command:
 sudo systemctl enable /etc/systemd/system/gophish.service
 ```
 
-<img width="1487" height="57" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/619103526-3e3c2fc4-7c95-4fca-a964-023cbd90f923.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012505Z&X-Amz-Expires=300&X-Amz-Signature=803d7cfa04a46620717d857684b1604b431e085489d110fb6863b686471c748a&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1487" height="57" alt="image" src="https://github.com/user-attachments/assets/5d8f790b-880c-4a80-ae35-46894b65de86" />
 
 After that, you can start the service with this command:  
 
@@ -385,7 +385,7 @@ sudo systemctl start gophish
 
 Note that, you must give execution permissions to the `gophish` binary before starting the service, otherwise it will fail to start.
 
-<img width="1822" height="602" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/619103163-036af0ef-e906-4fac-a8a1-fe13ff2bd775.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012520Z&X-Amz-Expires=300&X-Amz-Signature=e1a98138fcc7f0dcec89664364a325ac34d392d20a43672add56079048971170&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1822" height="602" alt="image" src="https://github.com/user-attachments/assets/a2e4a2a5-acdd-42fa-8ea7-c22d58f57b35" />
 
 To get GoPhish admin panel's password, run the binary:  
 
@@ -393,7 +393,7 @@ To get GoPhish admin panel's password, run the binary:
 ./gophish
 ```
 
-<img width="1511" height="237" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/619105421-8cdfb8a4-8602-4481-8063-26b4eca9bde9.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012539Z&X-Amz-Expires=300&X-Amz-Signature=12da0986624b3f7e086f305fec4a5eb6afa7c6886d3f594ff8c77332bd425b6e&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1511" height="237" alt="image" src="https://github.com/user-attachments/assets/6bff6874-a5b9-4822-99ae-33809f34151f" />
 
 > By default, GoPhish generates a random password of 16 alphanumerical characters. The default username is `admin`.  
 
@@ -411,24 +411,24 @@ To check if the configurations were successfully applied, use this command:
 ufw status
 ```
 
-<img width="1067" height="217" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/619111941-5465fc5f-c712-493c-af35-d3de13465263.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012554Z&X-Amz-Expires=300&X-Amz-Signature=1775bdb8bd54717f9364ff9d3f79021d1fd572efc1d98400615346184ee446a3&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1067" height="217" alt="image" src="https://github.com/user-attachments/assets/544db162-37be-4179-a1aa-4daff75d39c7" />
 
 Let's now access GoPhish admin panel:  
 
-<img width="3020" height="1196" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/625179572-35ec083e-c4c5-424b-ba36-d98d7e84f0d0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012607Z&X-Amz-Expires=300&X-Amz-Signature=b2db134e2cf67c928284dc5bc0bd01ee79fdf141f54a16d9e17895005fd4379b&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="3020" height="1196" alt="image" src="https://github.com/user-attachments/assets/f4464853-9b3b-402e-82a4-e4fb9b0d9d89" />
 
 After specifying your credentials, you will need to reset your password:  
 
-<img width="955" height="601" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/620397536-4ba95dd9-bb5b-4390-bcd5-024270579ab5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012622Z&X-Amz-Expires=300&X-Amz-Signature=83150e7deb6883ae2b2f5197139339a64aa4fcb13014169ad97107fca3afad13&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="955" height="601" alt="image" src="https://github.com/user-attachments/assets/779f62d0-1ddf-4f18-b32c-e32242eb2a0a" />
 
-<img width="1222" height="677" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/620397627-391063bd-6f42-42bf-b7d9-d9700d961150.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012635Z&X-Amz-Expires=300&X-Amz-Signature=e802b39b59665e70b4ff36f47401fe65531d390a9760e22778f7004e27b577e7&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1222" height="677" alt="image" src="https://github.com/user-attachments/assets/b576d997-17c2-45fc-905c-352e649ac755" />
 
 ### Phishing Server
 
 In this section, we are going to configure the phishing server that will host our phishing website.  
 By default, this port listens on `0.0.0.0:80`. To access it, you will first need to link your phishing domain with your VPS IP address. This can be done by adding an `A` record to your DNS configuration.  
 
-<img width="1102" height="57" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/620396067-f92882ed-678c-45e0-aeda-3fc79950aeb1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012646Z&X-Amz-Expires=300&X-Amz-Signature=3b211c30fc94b5da1e5830c690bc3b9491533d0bcbea77cb079bae549112093d&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1102" height="57" alt="image" src="https://github.com/user-attachments/assets/2a55bedc-e4f2-4858-98f6-05c2a1243862" />
 
 > The **@** symbol represents the root (apex) domain. This is a shorthand for the domain itself (phishlab.xyz), not a subdomain.   
 
@@ -438,12 +438,12 @@ To check if the record was successfully added, use this command:
 nslookup phishlab.xyz
 ```
 
-<img width="997" height="187" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/620396094-75e9c972-f637-42b6-aa11-dc6d8748300c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012657Z&X-Amz-Expires=300&X-Amz-Signature=293a1021eb8ad7c4e8baf906b2728fdd2aea6b977e0143f416511c65fe93f242&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="997" height="187" alt="image" src="https://github.com/user-attachments/assets/6a5c1a29-03ba-43f2-bc51-e679184d2052" />
 
 As you can see, nslookup resolution worked which means that my record was successfully added.  
 After that, you should be able to access your phishing domain:  
 
-<img width="597" height="75" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/620396418-ad8decd7-a7fa-4bad-b983-0d0a11a13ebb.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012711Z&X-Amz-Expires=300&X-Amz-Signature=ef22216de5d5d5c21c8c4cc359840db4b4a5170f264e2b4e4766dc161c84b7e7&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="597" height="75" alt="image" src="https://github.com/user-attachments/assets/04e44622-43da-4cf8-8eef-b26a58c2f896" />
 
 By default, this returns the default 404 page. However, it works!  
 
@@ -453,7 +453,7 @@ Using an HTTP website for a phishing campaign is not a great idea as it may rais
 
 By default, your phishing server listens on port 80, which may trigger warnings in the target's browser.  
 
-<img width="596" height="57" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/619113956-58dc99ac-9e2a-4869-9f0f-d3b12fe1f720.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012723Z&X-Amz-Expires=300&X-Amz-Signature=c29d9785762e8e18272b84cba5187a648067657516ac3b62485dad89ff3edc85&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="596" height="57" alt="image" src="https://github.com/user-attachments/assets/c3b1e891-f61b-44ef-bd35-08b9c4a96a61" />
 
 To deal with that, let's first install [certbot](https://certbot.eff.org/pages/about):  
 
@@ -461,7 +461,7 @@ To deal with that, let's first install [certbot](https://certbot.eff.org/pages/a
 sudo apt install -y certbot
 ```
 
-<img width="1787" height="420" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/619119989-7f312f52-d78f-4344-a902-a9cb782ed85f.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012736Z&X-Amz-Expires=300&X-Amz-Signature=9d1c2215e2788331183fbaf3131454e0f5d1013a01da656b05127dbd869f82bf&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1787" height="420" alt="image" src="https://github.com/user-attachments/assets/38ca12b7-f8a0-4cc6-9cba-a1b35b42808f" />
 
 To generate a new `Let’s Encrypt` certificate, use this command:  
 
@@ -469,19 +469,19 @@ To generate a new `Let’s Encrypt` certificate, use this command:
 certbot certonly -d '<your_phishing_domain_name>' --manual --preferred-challenges dns --register-unsafely-without-email
 ```
 
-<img width="1708" height="780" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/620396974-84061d8a-6c39-474e-8ee8-823e2ad48c26.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012746Z&X-Amz-Expires=300&X-Amz-Signature=b332e30271e2d1eb8200d14bea945bf42df06db494147e06772c5dbebfbb6709&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />  
+<img width="1708" height="780" alt="image" src="https://github.com/user-attachments/assets/05d9ba86-5671-40a1-9b04-cf896de7c211" />
 
 Then, add the `_acme-challenge` TXT record to your DNS configuration.  
 
-<img width="1097" height="51" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/620397013-8f84be05-0d08-498a-a042-24e7bac4e403.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012758Z&X-Amz-Expires=300&X-Amz-Signature=59fc41d3b35a925a6a9fe4db773f8cac99b6d6947dd7f0977a89647da6832f20&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1097" height="51" alt="image" src="https://github.com/user-attachments/assets/5882c579-9bf7-4d49-be94-1f03a15970ed" />
 
 Once done, you can use [Google Admin Toolbox](https://toolbox.googleapps.com/apps/dig/#TXT/) to check if the record was successfully added:  
 
-<img width="1527" height="691" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/620397091-59f1fb5c-2f7f-4bf0-a70d-b3586f1aab1f.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012810Z&X-Amz-Expires=300&X-Amz-Signature=0cd88a1fb2185c1f4bb4f95c3c6f479a46badb371f7c875f19b2906e93dd0111&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1527" height="691" alt="image" src="https://github.com/user-attachments/assets/2b16fe26-cc6c-4c44-ae64-ec212553bf54" />
 
 After that, go back to `certbot` command line, and press `[ENTER]` to continue.  
 
-<img width="1841" height="420" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/620397125-1079c81a-f766-4a6b-b2b2-aa4ceb84d6c0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012821Z&X-Amz-Expires=300&X-Amz-Signature=9d0886bb1399a7d46bfd43e6637d71a0f5ba134804c86e5a233a006eda84f319&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1841" height="420" alt="image" src="https://github.com/user-attachments/assets/e090193f-c9ea-47a3-b5d9-96d12a6698f1" />
 
 If everything goes as planned, `certbot` will generate a certificate with its corresponding private key in the `/etc/letsencrypt/live/` directory.  
 
@@ -492,11 +492,11 @@ Then, you can update your `config.json` file by making the following changes:
 - Change `cert_path` with the certificate (.pem) generated by certbot
 - Change `key_path` with the private key (.pem) generated by certbot
 
-<img width="1587" height="602" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/619132972-2692e3c4-5e87-445f-b4c4-7952ffcbd902.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012837Z&X-Amz-Expires=300&X-Amz-Signature=1b7fdb9508816e4ae6176ac95660c8f9527cfd5e628ce0b1ac246d4b54da871c&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1587" height="602" alt="image" src="https://github.com/user-attachments/assets/1a06af76-0fe7-4c19-88f0-cd9858f36ec0" />
 
 Once done, you should now be able to access your phishing website using HTTPS:  
 
-<img width="1222" height="582" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/625751379-d6453d3a-3c90-413e-8a55-379ba88d0741.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012850Z&X-Amz-Expires=300&X-Amz-Signature=21670facea03436f4999b45761308a1633cbb0313ad1038e12bfaacc28706351&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1222" height="582" alt="image" src="https://github.com/user-attachments/assets/99b1d34c-ce60-45f6-8eb6-d4177c48d744" />
 
 Let's now start our first phishing campaign. Shall we?  
 
@@ -506,29 +506,29 @@ Let's now start our first phishing campaign. Shall we?
 
 To create a new sending profile, click on the `Sending Profiles` section:  
 
-<img width="3002" height="696" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/625180137-3bd93ddc-d7a5-4f94-87a1-f4bdb53a0a8d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012905Z&X-Amz-Expires=300&X-Amz-Signature=f8ad4af3fd8d326c162b58e743561989fad167ec363b2890eb69e4a168aba0b3&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="3002" height="696" alt="image" src="https://github.com/user-attachments/assets/4526ecc3-7ae9-4ae8-a907-5439e27b82e7" />
 
 Before creating your profile, you will need to verify that you own the email address that will be used by GoPhish for sending phishing emails to your targets.  
 
 If you used SendGrid as a SMTP relay service, go to `Settings > Sender Authentication > Single Sender Verification`:  
 
-<img width="877" height="873" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621448512-f67fe0d5-53d9-466f-9a83-469e6941aaa4.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012918Z&X-Amz-Expires=300&X-Amz-Signature=65dcc71f47d2fa6918c561ab10821f2cc3512cc916ea55e1b196644214e0c9c2&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="877" height="873" alt="image" src="https://github.com/user-attachments/assets/eca670c4-6e6e-413b-8f58-523e05ca49e0" />
 
 After clicking on `Verify a Single Sender`, click on `Create New Sender`:  
 
-<img width="1678" height="110" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621452543-f2139249-a1a5-412f-9460-8cdde36fc5b9.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012931Z&X-Amz-Expires=300&X-Amz-Signature=d1f1a22bdfddcd0e4612ad2f90322f8993780a0670df38d30c19d0f77a0fbfcb&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1678" height="110" alt="image" src="https://github.com/user-attachments/assets/fed9716b-5845-4015-b591-f95d65f96019" />
 
 Then, fill out the fields with your information:  
 
-<img width="1622" height="713" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621452219-4b294336-8326-484c-b0c7-710ebcc8f8d3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012942Z&X-Amz-Expires=300&X-Amz-Signature=f768df2c5ec546dc35e6f3259ef00f133a328834a69a1900e97f48b8895a866b&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1622" height="713" alt="image" src="https://github.com/user-attachments/assets/6db97ef3-3af9-400e-ac71-f2f485dcaf37" />
 
 If everything goes as planned, you must see a new entry in the `Single Sender Verification` section:  
 
-<img width="1678" height="257" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621455240-78293eaa-448c-4ecc-8326-c97c33d5759a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T012956Z&X-Amz-Expires=300&X-Amz-Signature=3a560684aad3e9d53c158720b1c6528bda75518310e5b3e1befeb191d200ecc2&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1678" height="257" alt="image" src="https://github.com/user-attachments/assets/af067a58-781e-46b2-9e72-649d1dd065fc" />
 
 The overall configuration must look like this:  
 
-<img width="1451" height="805" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621455823-605bb505-782d-4e56-b725-45188d561b82.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T013009Z&X-Amz-Expires=300&X-Amz-Signature=6a320c8f66f2662d3ec0f0754077309d4bc8698453f3a5b09f306253fcc7b91f&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1451" height="805" alt="image" src="https://github.com/user-attachments/assets/a9af2641-7fe8-49ac-bd0b-74751a722bb6" />
 
 Once the `Single Sender Verification` configuration done, proceed by adding a new sending profile in GoPhish.  
 
@@ -541,27 +541,27 @@ To do that, complete your sending profile with these information:
 
 > Note that this only works for SendGrid SMTP relay service. For instance, Gmail SMTP relay service configuration will look like [this](https://youtu.be/8Q6EtC8jzpM?si=zNWM14EOkdW7yYgb&t=74).
 
-<img width="1296" height="990" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621459009-8435d74f-85e6-462a-a727-aedfb783c358.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T013026Z&X-Amz-Expires=300&X-Amz-Signature=598187ab14690e9e676e21085a69f3b35c41977f5d733131d436e08a3d18f3a7&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1296" height="990" alt="image" src="https://github.com/user-attachments/assets/93af3c84-13d2-4673-a31b-b1d337f5b965" />
 
 To test your sending profile configuration, you can click on `Send Test Email`. This will try to send an email to a target email address of your choice using the SMTP relay service you configured in the `Sending Profile` section.  
 
 To generate a temporary email, you can use [temp-mail](https://temp-mail.org/).  
 
-<img width="576" height="252" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621461187-3b5cc7c9-90c7-46ff-8a89-d7c648592a23.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T013038Z&X-Amz-Expires=300&X-Amz-Signature=05e951434d9b816dc0f3ac01860fafbf016de7f694b81da20c4034ec978cc28b&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="576" height="252" alt="image" src="https://github.com/user-attachments/assets/d16b7209-cf27-45c6-af1e-ebc73d02e909" />
 
 After generating your temporary email, click on `Send Test Email`, then fill out the fields and click on Send` to send your test email.  
 
-<img width="1302" height="992" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621462547-3661e16e-7c1e-4923-93e5-9c6226adf72f.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T013051Z&X-Amz-Expires=300&X-Amz-Signature=e81a0d970d649733612cf5d653ddc87f54723c96b5f617cc777e4f49eaef0bdc&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1302" height="992" alt="image" src="https://github.com/user-attachments/assets/a6027d12-0013-45d1-bcb2-55d178efb1d7" />
 
 You should normally see this message:  
 
-<img width="687" height="312" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621463014-4b03c0c5-61ca-4172-8341-56c0459a6914.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T013105Z&X-Amz-Expires=300&X-Amz-Signature=b0d68aee681b2dc0d563172fd43eead48212add804f5a6ef3281f0c6deaee61e&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="687" height="312" alt="image" src="https://github.com/user-attachments/assets/d661a7fd-1651-4ed2-bf83-900b1656ffa3" />
 
 When taking a look to your temporary email's inbox, you should receive an email:  
 
-<img width="720" height="191" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621463404-6e812df5-16b2-464b-b408-e9abaee3d111.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T013116Z&X-Amz-Expires=300&X-Amz-Signature=4407f80e09bf7954722a45739bfdb1c8f19478f55662710d656bd9d170a82adc&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="720" height="191" alt="image" src="https://github.com/user-attachments/assets/a411cb2b-e4f9-417e-9281-3d6bc63015d2" />
 
-<img width="717" height="331" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621463869-900e5de9-113a-4457-b4cd-5798ed9e5068.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T013128Z&X-Amz-Expires=300&X-Amz-Signature=369ee30f37bf055e74c04a6def299566aab10528af33db5b1eeccbcb787d54ef&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="717" height="331" alt="image" src="https://github.com/user-attachments/assets/f7aec560-0bbf-41c4-960a-61e2a8ca3e29" />
 
 Finally save your changes to avoid losing them.
 
@@ -569,7 +569,7 @@ Finally save your changes to avoid losing them.
 
 **[Email templates](https://docs.getgophish.com/user-guide/documentation/templates)** is the content of the email that is sent to your targets. This is what your targets will read.  
 
-<img width="1300" height="992" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621469110-57daa62d-a3ab-405a-ba4b-7e82ea76c925.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T013140Z&X-Amz-Expires=300&X-Amz-Signature=17b04a8546071b9dec6e97ee0f7ccf8affb47b5949f6fb86738e96b3a483c846&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1300" height="992" alt="image" src="https://github.com/user-attachments/assets/561097d0-ec23-4277-9f8e-6fe88bc57c95" />
 
 In this section, you will need to provide these information:  
 
@@ -602,7 +602,7 @@ Note that you can import an email's source code using the `Import Email` button.
 
 As usual, make sure to save your template to not lose your modifications.  
 
-<img width="680" height="67" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621488861-d3fe03f0-347f-4cf0-adc1-22fb7ad86da0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T013156Z&X-Amz-Expires=300&X-Amz-Signature=d6ad8cb0a054fbf985ab07ae6bc274171fb6c8262e5c03dd00e450e30472b292&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="680" height="67" alt="image" src="https://github.com/user-attachments/assets/f6d9a977-83a1-430a-a93d-1213e5ee9673" />
 
 ### Landing Pages
 
@@ -612,19 +612,19 @@ Let's try to clone [Wordpress.org's login page](https://login.wordpress.org/).
 
 To do that, click on the `Import Site` button on the `Landing Pages` section:  
 
-<img width="1307" height="763" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621491470-48f86799-c78e-4f9e-a4fc-04894d29aa04.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T013210Z&X-Amz-Expires=300&X-Amz-Signature=6bf021b5303945dfc6822f3031d97948d5810b6c90a15a96cbfe02f243728bb8&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1307" height="763" alt="image" src="https://github.com/user-attachments/assets/11796813-1d41-437e-ac7d-d4c3fd551bcb" />
 
 <br></br>
 
-<img width="686" height="263" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621491974-73a34d0f-9686-4de3-a244-d3070f1c333e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T013221Z&X-Amz-Expires=300&X-Amz-Signature=7dcae0afb8c62572236458ab168253092852699dcb56d75e66e7d69f2738f405&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="686" height="263" alt="image" src="https://github.com/user-attachments/assets/6c82343a-484c-47ee-b121-ae4957197bf7" />
 
 <br></br>
 
-<img width="1297" height="993" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621492761-0b9e84e2-4513-4e8b-911b-94a3a3aaf31b.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T013234Z&X-Amz-Expires=300&X-Amz-Signature=6d6631a22e730cd082611fe556e2ba8f448a80129c6b006d34ed24907a3160f6&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1297" height="993" alt="image" src="https://github.com/user-attachments/assets/37cd7da6-8392-45bd-a7f9-5f5fc4435320" />
 
 As you can see the page was successfully cloned. To capture credentials, check the "Capture Submitted Data" and "Capture Passwords" boxes. Furthermore, to avoid raising any suspicion, you can redirect the target to a website of your choice:  
 
-<img width="677" height="178" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621494070-ea9b2abc-1cc9-44e7-bac7-d8a7c4a5e6ea.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T013246Z&X-Amz-Expires=300&X-Amz-Signature=4edb4cb6521b35b684b1bd27fff65cf1ea9648ce0e9141816445477356e83bf6&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="677" height="178" alt="image" src="https://github.com/user-attachments/assets/f424d607-baea-4713-9f93-8c3556b90961" />
 
 After that, save your landing page configuration.  
 
@@ -632,13 +632,13 @@ After that, save your landing page configuration.
 
 **[Users & Groups](https://docs.getgophish.com/user-guide/documentation/groups)** section is used to specify the target users to which your email will be sent. These users will be placed in various groups depending on their roles, permissions, etc. For instance, the email you will send to executives will not be the same as the email you will send to HR.  
 
-<img width="1301" height="600" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621496672-072bfe65-6608-4aa5-bf69-f7effde7221b.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T013301Z&X-Amz-Expires=300&X-Amz-Signature=1d8f83d1101812233e25539868f7c620b2bf8f6025011eafea0784559c22cb3d&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1301" height="600" alt="image" src="https://github.com/user-attachments/assets/6ce3a30b-5db7-46f7-a85a-6773feeea36e" />
 
 Note that, you can also add users by importing them using a `.csv` file.  
 
 Once done, click on save.  
 
-<img width="1325" height="437" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621501196-09ace366-7608-4fc5-a21e-fdddcc9c4544.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T013315Z&X-Amz-Expires=300&X-Amz-Signature=7f45b9458d8fda50b9b5d13117cac48c8748fecbe181b12833413151b3da89be&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1325" height="437" alt="image" src="https://github.com/user-attachments/assets/7b09bbc4-c6b0-45ee-ae6c-bb7e2b150d4d" />
 
 
 ### Campaigns
@@ -647,7 +647,7 @@ Once done, click on save.
 
 To launch your campaign, click on the `Campaigns` section:  
 
-<img width="1303" height="788" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621507009-952ffdb5-bdb6-4daa-a137-06847bdb7713.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T013328Z&X-Amz-Expires=300&X-Amz-Signature=2b0f58cd9407ecdbdaf0374405acb2c7e7b5991f32e1a1f12ed701ec219292d2&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1303" height="788" alt="image" src="https://github.com/user-attachments/assets/a8555b52-769f-412d-b679-90e97c272adc" />
 
 Make sure to replace the `URL` section with your phishing website URL.  
 
@@ -655,43 +655,43 @@ Before starting your phishing campaign, you can test if everything works properl
 
 After that, launch your campaign by clicking on the `Launch Campaign` button:  
 
-<img width="1305" height="788" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621509509-5ebe91c9-c96d-4e61-aac7-9fa7d1eb7ce7.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T013341Z&X-Amz-Expires=300&X-Amz-Signature=19fea12a0ba634fe2b4193d2adb8beb488b497c9c27de763e2e39cd4df3de685&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1305" height="788" alt="image" src="https://github.com/user-attachments/assets/277a632b-5944-4c75-bb33-48fdbac86f92" />
 
 You should see a dashboard similar to this one:  
 
-<img width="1582" height="876" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621510582-e1577a6d-9ce2-4411-bc75-88d514e1f1ce.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T013354Z&X-Amz-Expires=300&X-Amz-Signature=4482e46660ffafe11f343a5f64f8ccfd04906862a8a8036386ee560fe23ec5d4&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1582" height="876" alt="image" src="https://github.com/user-attachments/assets/dfcbaffa-3795-4059-85ce-e01f2531c1e8" />
 
 When taking a look at the target's mailbox, we can see that they receive our phishing email:  
 
-<img width="713" height="57" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621511051-5bef65a3-9950-45c3-ab69-e584e56fcc94.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T013407Z&X-Amz-Expires=300&X-Amz-Signature=c1bf06e8f7541ef918a1dcc63cc16cec945c17fe0d9bb8fd89647ece94503c19&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="713" height="57" alt="image" src="https://github.com/user-attachments/assets/7df07cd2-c87f-48a9-911e-0c472598b2f7" />
 
 Here is the content of the email:  
 
-<img width="700" height="276" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621511394-29f30572-6113-47e2-a48d-1d6cc6c26206.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T013420Z&X-Amz-Expires=300&X-Amz-Signature=55fb803b87b83ab6c58078a93e1fc80a0a0fc43b41d225a648146bbfe744f573&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="700" height="276" alt="image" src="https://github.com/user-attachments/assets/b46a1fd2-e45e-4e36-9eb9-6cd3f13b4a69" />
 
 Let's try to click on the phishing link:  
 
-<img width="1587" height="813" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621515358-d7df86d3-427b-485e-a91f-7d8252e37502.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T013434Z&X-Amz-Expires=300&X-Amz-Signature=910b64cf5909fc4a00dac63fd1394b3b909becc8472d189d6ca518bc27db18f3&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1587" height="813" alt="image" src="https://github.com/user-attachments/assets/7ba0bb55-f42b-4aef-80e0-2d76987e8a01" />
 
 We are redirected to the phishing website specified in the `Landing Pages` section.  
 
 When taking a look at the `Campaigns` section, you can see that GoPhish highlighted that the target opened the email address and clicked on the link.  
 
-<img width="1566" height="815" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621516498-61696f7b-e652-48ad-ad41-67ff46fde00a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T013444Z&X-Amz-Expires=300&X-Amz-Signature=10cd905ccc957eefce36dbd222df3d550f78f02d2bcbf018370301d06ea53924&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1566" height="815" alt="image" src="https://github.com/user-attachments/assets/4d2c464e-026d-433a-8933-d44b9b372701" />
 
 Let's now try to enter some credentials:  
 
-<img width="1583" height="809" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621517496-e7aa74f7-8356-4303-8f9b-8691d32d9cf6.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T013455Z&X-Amz-Expires=300&X-Amz-Signature=11d0aac4c275bd2615b171c9c28613a10e835564d612a5abc562baaf9c70e6e0&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1583" height="809" alt="image" src="https://github.com/user-attachments/assets/4351e859-09d0-4b44-8ac6-8da96b9ebebf" />
 
 This redirected us to `https://login.wordpress.org` which is the URL we configured in the `Landing Pages` section.  
 
-<img width="1592" height="819" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621518028-3d1c8ea2-7cbb-4bee-a5d6-4153ef816705.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T013506Z&X-Amz-Expires=300&X-Amz-Signature=79d13f6eb949c3c3a5ac8b1b0021fad5543f5d2b2537216ca7b96acb894e44d0&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1592" height="819" alt="image" src="https://github.com/user-attachments/assets/06c73493-bd4d-4574-9af8-59263effcf12" />
 
 When visualizing our GoPhish campaign dashboard, we can see that the target submitted data:  
 
-<img width="1576" height="812" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621518883-0fa49a29-bfc3-4435-96cf-02b7cd04b69b.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T013518Z&X-Amz-Expires=300&X-Amz-Signature=f5dc0daa205c654156d963518bb8f20012325a411f1e9d65d6234d3635b816a4&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1576" height="812" alt="image" src="https://github.com/user-attachments/assets/41c37c16-b46d-4fe3-b630-90366ad1a849" />
 
-<img width="1565" height="1015" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621520304-f5f5e63f-c834-4ac0-9cb1-357cd8db97cb.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T013530Z&X-Amz-Expires=300&X-Amz-Signature=6a2af4e44aa950965d19ac3be0876c57769490a7eef88c8c059b146861f56145&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1565" height="1015" alt="image" src="https://github.com/user-attachments/assets/face8177-59e7-4216-8656-e3ed56b4e3ae" />
 
 As you can see, GoPhish intercepted the username and password of the target. Using that, we can attempt to authenticate to their account.  
 
@@ -719,7 +719,7 @@ go build
 
 > Do not interrupt the build, as it may take a few seconds to complete.  
 
-<img width="1507" height="82" alt="image" src="https://github.com/user-attachments/assets/5b309899-8928-4e2e-bda7-c56c7f6a0b22" />  
+<img width="1507" height="82" alt="image" src="https://github.com/user-attachments/assets/07aefb94-6367-4b4b-91ae-6e53c24c1a85" />
 
 To install Evilginx using its [binary](https://github.com/kgretzky/evilginx2/releases/latest), follow these steps:  
 
@@ -727,13 +727,13 @@ To install Evilginx using its [binary](https://github.com/kgretzky/evilginx2/rel
 wget https://github.com/kgretzky/evilginx2/releases/download/v3.3.0/evilginx-v3.3.0-linux-64bit.zip
 ```
 
-<img width="1552" height="52" alt="image" src="https://github.com/user-attachments/assets/049162f8-b85a-48e3-91b3-d1ae9accb365" />
+<img width="1552" height="52" alt="image" src="https://github.com/user-attachments/assets/de13d749-d1f1-4a02-84ce-8a8a1ed9ab4e" />
 
 ```bash
 unzip evilginx-v3.3.0-linux-64bit.zip -d evilginx
 ```
 
-<img width="1127" height="207" alt="image" src="https://github.com/user-attachments/assets/e448838c-6a01-4513-91d2-2a54569c42f1" />
+<img width="1127" height="207" alt="image" src="https://github.com/user-attachments/assets/f13053ff-ca2f-4c10-a64d-603304a790bf" />
 
 After that, give `evilginx` execution permissions:  
 
@@ -741,7 +741,7 @@ After that, give `evilginx` execution permissions:
 chmod +x ./evilginx
 ```
 
-<img width="977" height="80" alt="image" src="https://github.com/user-attachments/assets/1a813f51-2492-4f03-a73e-9da4ebe8b90d" />
+<img width="977" height="80" alt="image" src="https://github.com/user-attachments/assets/79f9808a-580a-4f50-85b7-71d2e6cfcb09" />
 
 Once done, launch `evilginx`:  
 
@@ -749,7 +749,7 @@ Once done, launch `evilginx`:
 ./evilginx
 ```
 
-<img width="1674" height="951" alt="image" src="https://github.com/user-attachments/assets/2b3c7463-f584-4cdf-863a-9c05fc9e6788" />
+<img width="1674" height="951" alt="image" src="https://github.com/user-attachments/assets/7ed52dc8-bc9d-461c-ba4b-a28a8f5fc967" />
 
 As you can see, Evilginx failed to start a DNS server on `port 53`. This occured because the port is being used by another process on the system. To check it, use this command:  
 
@@ -757,7 +757,7 @@ As you can see, Evilginx failed to start a DNS server on `port 53`. This occured
 sudo lsof -i :53
 ```
 
-<img width="1211" height="157" alt="image" src="https://github.com/user-attachments/assets/a7e19dae-8622-4e65-8d0e-3fb86e48e936" />  
+<img width="1211" height="157" alt="image" src="https://github.com/user-attachments/assets/8034fbc2-b6f4-48d4-823c-736cb5213a26" />
 
 To deal with that, you will first need to stop the `systemd-resolved` service, then remove the `/etc/resolv.conf` file:  
 
@@ -769,13 +769,13 @@ sudo systemctl stop systemd-resolved.service
 lsof -i :53
 ```
 
-<img width="877" height="52" alt="image" src="https://github.com/user-attachments/assets/cc2d4eac-0cfc-4778-9853-a24108c127f3" />
+<img width="877" height="52" alt="image" src="https://github.com/user-attachments/assets/5495645b-b7f4-4709-8305-e1e4dc0bf94a" />
 
 ```bash
 mv /etc/resolv.conf /etc/resolv.conf.bak
 ```
 
-<img width="901" height="30" alt="image" src="https://github.com/user-attachments/assets/bc3cc72c-e756-4e22-bd89-37928e53b8fe" />
+<img width="901" height="30" alt="image" src="https://github.com/user-attachments/assets/7a3755ec-0c98-4c07-86d2-12502c8a8f5d" />
 
 After that, execute the following command to create a new `/etc/resolv.conf` with your favorite recursive DNS servers:  
 
@@ -783,7 +783,7 @@ After that, execute the following command to create a new `/etc/resolv.conf` wit
 echo -e 'nameserver 1.1.1.1\nnameserver 9.9.9.9' >> /etc/resolv.conf
 ```
 
-<img width="982" height="82" alt="image" src="https://github.com/user-attachments/assets/d2e9343c-6f93-4ef2-96d7-438bc993188d" />
+<img width="982" height="82" alt="image" src="https://github.com/user-attachments/assets/160d521d-fdbb-40f5-91d7-7db82cfd366f" />
 
 To check if the DNS resolution works, you can perform an `nslookup`:  
 
@@ -791,11 +791,11 @@ To check if the DNS resolution works, you can perform an `nslookup`:
 nslookup google.com
 ```
 
-<img width="1455" height="657" alt="image" src="https://github.com/user-attachments/assets/9aaa4e61-de1d-46da-b5e2-96dce45bcf61" />
+<img width="1455" height="657" alt="image" src="https://github.com/user-attachments/assets/82f2f258-5b78-42e4-adf8-f9e454b7f8fa" />
 
 See that Evilginx uses port `tcp/443` to host your phishing website, you will need to reconfigure your GoPhish's phishing server URL to listen on another port (eg: tcp/8843).  
 
-<img width="1422" height="602" alt="image" src="https://github.com/user-attachments/assets/d1bbd7fc-db97-4e73-8487-e5aab01f3b91" />
+<img width="1422" height="602" alt="image" src="https://github.com/user-attachments/assets/370c6449-850b-4458-be6b-c80ae873d5e7" />
 
 After that, restart your Gophish service to apply the changes:  
 
@@ -807,7 +807,7 @@ systemctl restart gophish
 systemctl status gophish
 ```
 
-<img width="1671" height="255" alt="image" src="https://github.com/user-attachments/assets/a34a86eb-4fb5-4a9d-ab46-4702a3b76e0f" />
+<img width="1671" height="255" alt="image" src="https://github.com/user-attachments/assets/2a7a18cd-4592-4a4d-bf7e-cba18e739166" />
 
 Let's now configure the domain, and the external IPv4 address:  
 
@@ -815,17 +815,17 @@ Let's now configure the domain, and the external IPv4 address:
 config domain <your_phishing_domain_name>
 ```
 
-<img width="977" height="57" alt="image" src="https://github.com/user-attachments/assets/0130017a-7c4a-42f4-b52f-5b16d658214c" />
+<img width="977" height="57" alt="image" src="https://github.com/user-attachments/assets/bee72247-9747-46d2-87a9-7970446b87ce" />
 
 ```
 config ipv4 external <your_phishing_domain_ipv4_address>
 ```
 
-<img width="792" height="52" alt="image" src="https://github.com/user-attachments/assets/64bfc46d-c386-4d52-a49e-c561b3adbe63" />
+<img width="792" height="52" alt="image" src="https://github.com/user-attachments/assets/c6e633a2-4e8d-401d-abbe-84a18c23712f" />
 
 Enter the `Help` command to get some help:  
 
-<img width="1242" height="325" alt="image" src="https://github.com/user-attachments/assets/02e8019d-3bef-4220-9bf0-c1d59dd149d6" />
+<img width="1242" height="325" alt="image" src="https://github.com/user-attachments/assets/a942c44a-d7b6-4a2b-a203-415da9e3de61" />
 
 In the next section, we will learn how to configure phishlets.  
 
