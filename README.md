@@ -16,7 +16,7 @@ The goal of this lab is to help pentesters learn how to conduct a phishing campa
       + [Admin Panel Server](#admin-panel-server)
       + [Phishing Server](#phishing-server)
       + [TLS Certificate](#tls-certificate)
-      + [Sending Profiles](#sending-profiles)
+      + [Sending Profiles](#sending-profiles)x
       + [Email Templates](#email-templates)
       + [Landing Pages](#landing-pages)
       + [Users & Groups](#users-groups)
@@ -857,9 +857,9 @@ git clone https://github.com/An0nUD4Y/Evilginx-Phishlets.git
 
 Let's use the `wordpress.org.yaml` phishlet to better understand the structure of a phishlet:  
 
-<img width="1616" height="982" alt="image" src="https://github.com/user-attachments/assets/4693a436-9c6a-4c32-9071-9509a3c92454" />
+<img width="1616" height="982" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/625153502-4693a436-9c6a-4c32-9071-9509a3c92454.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021442Z&X-Amz-Expires=300&X-Amz-Signature=dc0b4447089149fa217409bf09dcee488a1f90dd854162373388ef4dbd3f84f5&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
 
-<img width="1082" height="357" alt="image" src="https://github.com/user-attachments/assets/f54e6a9a-e125-4586-9702-8ce6e3aea6b2" />
+<img width="1082" height="357" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/625152078-f54e6a9a-e125-4586-9702-8ce6e3aea6b2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021518Z&X-Amz-Expires=300&X-Amz-Signature=2aedf333de348e885a06a42d05a21c1b3918fecc77ed11a510da0ad14f72179e&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
 
 Here is a quick explanation of the different fields in the yaml file:  
 
@@ -872,11 +872,11 @@ Note that the option `is_landing: true` tells Evilginx that this host is where v
 
 After that, add the highlighted subdomains (login, make, profiles) above to your phishing domain's DNS records as A records:  
 
-<img width="1377" height="217" alt="image" src="https://github.com/user-attachments/assets/2f34e7ba-54e6-4611-b57f-0c73524e8f4a" />
+<img width="1377" height="217" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621053439-2f34e7ba-54e6-4611-b57f-0c73524e8f4a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021534Z&X-Amz-Expires=300&X-Amz-Signature=7345a695d52829c45c856e91607e41d772b457ca316b1597ab232e6456649f08&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
 
 Make sure, your phishlet is located in the `phishlets` directory, otherwise it won't be found by Evilginx:  
 
-<img width="777" height="52" alt="image" src="https://github.com/user-attachments/assets/fe934d8b-ba02-4b1d-b82e-a275b1854e22" />
+<img width="777" height="52" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/619480643-fe934d8b-ba02-4b1d-b82e-a275b1854e22.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021544Z&X-Amz-Expires=300&X-Amz-Signature=54f753ced4dac0c0744883d7e547d8d54a7a446aa3d0cd86cef01bd6bc7fdc85&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
 
 Once done, re-execute `evilginx`:  
 
@@ -884,7 +884,7 @@ Once done, re-execute `evilginx`:
 ./evilginx
 ```
 
-<img width="1636" height="770" alt="image" src="https://github.com/user-attachments/assets/f5cece78-402e-4a8f-981e-dee941945ef3" />
+<img width="1636" height="770" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/619484230-f5cece78-402e-4a8f-981e-dee941945ef3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021555Z&X-Amz-Expires=300&X-Amz-Signature=b1d9e1fbb059db5f204248f2d586a6d33de046389daab2530a1dceb333212882&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
 
 To better understand how to use the `phishlets`, use this command:  
 
@@ -892,7 +892,7 @@ To better understand how to use the `phishlets`, use this command:
 help phishlets
 ```
 
-<img width="1777" height="772" alt="image" src="https://github.com/user-attachments/assets/fce8b1ce-40a3-4206-9ee5-7c0be580e2e5" />
+<img width="1777" height="772" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/619486796-fce8b1ce-40a3-4206-9ee5-7c0be580e2e5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021607Z&X-Amz-Expires=300&X-Amz-Signature=1d6763106b42f99c8bd5d9f21fdb81fabfd7b1596db495d2e556b7b889072256&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
 
 To hide the **example** phishlet, use this command:  
 
@@ -900,7 +900,7 @@ To hide the **example** phishlet, use this command:
 phishlets hide example
 ```
 
-<img width="1202" height="62" alt="image" src="https://github.com/user-attachments/assets/1031678a-43c2-40fe-802a-bfac3e72d76a" />
+<img width="1202" height="62" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/619488255-1031678a-43c2-40fe-802a-bfac3e72d76a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021620Z&X-Amz-Expires=300&X-Amz-Signature=019a90d5427075059afcb523430d33447f9adbf69c418a3fe7b3d913ef2b8d31&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
 
 To enable `wordpress.org` phishlet and request an SSL/TLS certificate, use the following command:  
 
@@ -908,7 +908,7 @@ To enable `wordpress.org` phishlet and request an SSL/TLS certificate, use the f
 phishlets enable wordpress.org
 ```
 
-<img width="1257" height="81" alt="image" src="https://github.com/user-attachments/assets/79142bb6-aafe-4d88-bfd7-fae542c9b83a" />
+<img width="1257" height="81" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/619489806-79142bb6-aafe-4d88-bfd7-fae542c9b83a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021631Z&X-Amz-Expires=300&X-Amz-Signature=39a7f8c72b122616b9822c63da5b657c9aee6ae27605292e7d609f24195d451d&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
 
 This returned an error stating that `wordpress.org` phishlet requires its hostname to be set up.  
 
@@ -918,9 +918,9 @@ To fix that, use this command:
 phishlets hostname wordpress.org <your_phishing_domain>
 ```
 
-<img width="1005" height="53" alt="image" src="https://github.com/user-attachments/assets/df9fbde4-d887-4d81-9559-c05c29294513" />
+<img width="1005" height="53" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621058318-df9fbde4-d887-4d81-9559-c05c29294513.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021643Z&X-Amz-Expires=300&X-Amz-Signature=3427ca1d667ffe9083b9ca9e0396f5c316156fc0c15693f74fe09d1811ff806f&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
 
-<img width="1122" height="210" alt="image" src="https://github.com/user-attachments/assets/28729bfa-9d32-4c9d-9ab7-d85b23027f1d" />
+<img width="1122" height="210" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621059104-28729bfa-9d32-4c9d-9ab7-d85b23027f1d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021654Z&X-Amz-Expires=300&X-Amz-Signature=b0c9d450e6736fb6229d578c6383fd65c25fe3c745d87d86b087cace17861ccb&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
 
 After that, enable the phishlet:  
 
@@ -928,21 +928,21 @@ After that, enable the phishlet:
 phishlets enable wordpress.org
 ```
 
-<img width="1907" height="445" alt="image" src="https://github.com/user-attachments/assets/b28882a2-3fea-49bf-889a-ccc08fcbb6ee" />
+<img width="1907" height="445" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621061789-b28882a2-3fea-49bf-889a-ccc08fcbb6ee.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021704Z&X-Amz-Expires=300&X-Amz-Signature=167b8ae1e14f2d66f0bc2ed2ebf888ea41bb4cc87f4a12fa6f1479fcfb925b0e&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
 
-<img width="1157" height="205" alt="image" src="https://github.com/user-attachments/assets/b69b89ad-e281-4437-9cc2-f516c8f90f4d" />
+<img width="1157" height="205" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621065141-b69b89ad-e281-4437-9cc2-f516c8f90f4d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021718Z&X-Amz-Expires=300&X-Amz-Signature=2970a3a6aefde4a79678d305db5445993c9c67b4627e16d94a268b653578e326&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
 
 In my case, it worked. However, you may come across this error when enabling your phishlet:
 
-<img width="1907" height="306" alt="image" src="https://github.com/user-attachments/assets/9611256c-1346-4315-8a9d-b751a6d5251d" />
+<img width="1907" height="306" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/619502330-9611256c-1346-4315-8a9d-b751a6d5251d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021728Z&X-Amz-Expires=300&X-Amz-Signature=3474c4e15eadffb935de43ff6e42846a83c607d3db65998903d247ff472380e9&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
 
 To fix that, you will need to add the `_acme_challenge` TXT record with the value returned by Evilginx.  
 
-<img width="947" height="52" alt="image" src="https://github.com/user-attachments/assets/3592da3e-5479-4c27-ba02-ee2162ec9f3a" />
+<img width="947" height="52" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/619504495-3592da3e-5479-4c27-ba02-ee2162ec9f3a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021746Z&X-Amz-Expires=300&X-Amz-Signature=a6a2ae3de86da5d8bd4dc8498c49f20c0efb6ccd91b84ab111369ec8331e91f5&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
 
-<img width="1832" height="807" alt="image" src="https://github.com/user-attachments/assets/a22eca23-4fa0-4dad-9e31-c92110579fb0" />
+<img width="1832" height="807" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/619563199-a22eca23-4fa0-4dad-9e31-c92110579fb0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021757Z&X-Amz-Expires=300&X-Amz-Signature=5a77b59b3e04ec07042211ab0a3fbe49ce26b4bee3fee8d34003dd802f1ca347&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
 
-<img width="1257" height="207" alt="image" src="https://github.com/user-attachments/assets/b707755c-3860-4172-8ec9-98a043211430" />
+<img width="1257" height="207" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/619563948-b707755c-3860-4172-8ec9-98a043211430.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021807Z&X-Amz-Expires=300&X-Amz-Signature=92da649b81cb0a6354e104bba04cce04f3a63e83278f114aa871c789845add30&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
 
 Here is a little trick to disable log output for blacklist messages:  
 
@@ -950,7 +950,7 @@ Here is a little trick to disable log output for blacklist messages:
 blacklist log off
 ```
 
-<img width="1042" height="72" alt="image" src="https://github.com/user-attachments/assets/fcfe63a6-63b4-4722-8d20-43881558d682" />
+<img width="1042" height="72" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621087634-fcfe63a6-63b4-4722-8d20-43881558d682.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021817Z&X-Amz-Expires=300&X-Amz-Signature=4687b928e96edc866e61f5fdea4c45b204f0055bb749b39240727e0fb932cb2b&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
 
 This tells Evilginx to stop showing warnings regarding blacklisted IP addresses.  
 Let's now generate our phishing link using lures.  
@@ -963,7 +963,8 @@ Let's now generate our phishing link using lures.
 help lures
 ```
 
-<img width="1510" height="720" alt="image" src="https://github.com/user-attachments/assets/c04740cc-9663-4663-9a3b-2e03c032cf95" />
+<img width="1510" height="720" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/619564947-c04740cc-9663-4663-9a3b-2e03c032cf95.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021831Z&X-Amz-Expires=300&X-Amz-Signature=4b20dc34c3d92fe259a4d76d04a9d8166007c193f7cfec58f37cac14aba2ae5d&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+
 
 To create a lure for your `wordpress.org` phishlet, use this command:  
 
@@ -971,9 +972,9 @@ To create a lure for your `wordpress.org` phishlet, use this command:
 lures create wordpress.org
 ```
 
-<img width="875" height="59" alt="image" src="https://github.com/user-attachments/assets/3b239295-7fe7-4ebe-affb-d7038908a0d8" />
+<img width="875" height="59" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621065601-3b239295-7fe7-4ebe-affb-d7038908a0d8.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021854Z&X-Amz-Expires=300&X-Amz-Signature=efad5a6662a3e86432002e619b9245a29c078ea2ea1d78f387868ff15c038bf2&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
 
-<img width="1361" height="242" alt="image" src="https://github.com/user-attachments/assets/63e57e1b-d803-49fe-ae9b-c61e0be84c99" />
+<img width="1361" height="242" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/619566768-63e57e1b-d803-49fe-ae9b-c61e0be84c99.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021904Z&X-Amz-Expires=300&X-Amz-Signature=786bbd74a8796a994e1df611254d0b61736a485dfe84ee2a04bc1bf61e0a9fc3&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
 
 To get the lure's URL, use this command:  
 
@@ -981,7 +982,7 @@ To get the lure's URL, use this command:
 lures get-url 0
 ```
 
-<img width="867" height="84" alt="image" src="https://github.com/user-attachments/assets/d0e4c1e3-30fc-4b83-a2c4-75c1ed73f3dd" />
+<img width="867" height="84" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621066880-d0e4c1e3-30fc-4b83-a2c4-75c1ed73f3dd.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021919Z&X-Amz-Expires=300&X-Amz-Signature=0968c6f51bdadbe97c59cbc98d8577ad96119a31224f41b4cf67e889bdbb6460&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
 
 This is the link you will send to your targets.  
 
@@ -991,7 +992,7 @@ To display all lures, run this command:
 lures
 ```
 
-<img width="1287" height="180" alt="image" src="https://github.com/user-attachments/assets/266a4d16-3e68-482a-b7bf-a4c6ee9e2c0d" />
+<img width="1287" height="180" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621066388-266a4d16-3e68-482a-b7bf-a4c6ee9e2c0d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021931Z&X-Amz-Expires=300&X-Amz-Signature=c34057182d23ecbd14c0510644108893fd36cdd4fd35a6be78b3d88890ee5795&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
 
 > Note that IP addresses will automatically be blacklisted by Evilginx when a user tries to access your phishing website without specifying the lure. This prevents unauthorized access and make detection harder.  
 
@@ -1001,13 +1002,13 @@ lures
 
 To start, let's copy our lure's URL and open it in our browser:    
 
-<img width="1757" height="987" alt="image" src="https://github.com/user-attachments/assets/c7605a53-f4ef-483d-a1f1-d34bc3441821" />
+<img width="1757" height="987" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621068167-c7605a53-f4ef-483d-a1f1-d34bc3441821.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021942Z&X-Amz-Expires=300&X-Amz-Signature=32cdb2764f86df4b6cf835e22ec80ee05cd63cd32f23dc9c746ec80aa6823d67&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
 
 As you can see, I landed on a Wordpress login page.  
 
 Let's now try to enter some credentials on your Wordpress phishing website:  
 
-<img width="862" height="777" alt="image" src="https://github.com/user-attachments/assets/f6885246-7cc4-4486-afbf-eee2ec3159f2" />
+<img width="862" height="777" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621070090-f6885246-7cc4-4486-afbf-eee2ec3159f2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021955Z&X-Amz-Expires=300&X-Amz-Signature=69812b5d3be8bf8be9ee3962c2a28fac6470785b868a7fe43fc24fae0e6bc85f&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
 
 To check if Evilginx captured the credentials, use this command:  
 
@@ -1026,29 +1027,29 @@ One of the main differences between GoPhish and Evilginx is that GoPhish is a **
 To combine GoPhish and Evilginx, create a new campaign and replace the `URL` section in GoPhish `Campaigns` with your Evilginx's lure URL, then launch your campaign.  
 Here is my lure:  
 
-<img width="956" height="80" alt="image" src="https://github.com/user-attachments/assets/b81f14fa-abb6-4cb8-a5db-91ace2b4300b" />
+<img width="956" height="80" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621092189-b81f14fa-abb6-4cb8-a5db-91ace2b4300b.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T022007Z&X-Amz-Expires=300&X-Amz-Signature=482e4700c4407f82342f43837340beaea548235955a2d726be9e52dbdaa04e4b&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
 
 Replacing it gave me something like this:  
 
-<img width="1392" height="1037" alt="image" src="https://github.com/user-attachments/assets/5e4a0608-5b43-4b88-896b-6f0565a2ab56" />
+<img width="1392" height="1037" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621093465-5e4a0608-5b43-4b88-896b-6f0565a2ab56.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T022028Z&X-Amz-Expires=300&X-Amz-Signature=320f02dd93e53117654e957e347f8caf1c0cab6e64ed6df0db6e01819cd6478f&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
 
 Once done, I save my settings and launch the campaign.  
 
 When taking a look at the Campaign dashboard, we can see that the email was successfully sent.  
 
-<img width="1537" height="1005" alt="image" src="https://github.com/user-attachments/assets/085d9168-18d9-400a-9d30-da2384cb37cf" />
+<img width="1537" height="1005" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621093888-085d9168-18d9-400a-9d30-da2384cb37cf.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T022040Z&X-Amz-Expires=300&X-Amz-Signature=747798bbe018a673d174da3dad6102cffe0c046fc9d47541b00d7310ff547f2c&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
 
 To verify that we can check the target's email inbox:  
 
-<img width="896" height="362" alt="image" src="https://github.com/user-attachments/assets/7b8ac322-6356-43db-99d2-d326137767f9" />
+<img width="896" height="362" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621094451-7b8ac322-6356-43db-99d2-d326137767f9.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T022049Z&X-Amz-Expires=300&X-Amz-Signature=4da3d37ee650633483fbe1350a5da36c3910e6a194ee03b781220c9edbff09a6&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
 
 Let's click on the link in the email:  
 
-<img width="1387" height="947" alt="image" src="https://github.com/user-attachments/assets/9d9dc9ee-df2c-4fec-9ba8-3feb4b3fe1a1" />
+<img width="1387" height="947" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621094994-9d9dc9ee-df2c-4fec-9ba8-3feb4b3fe1a1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T022101Z&X-Amz-Expires=300&X-Amz-Signature=aed0d647c5b689d0bd5f0569ed3f3d50868fac0c6bcd20bd3eb8035629d5a7e0&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
 
 As you can notice, Evilginx captures the target's session. 
 
-<img width="1282" height="190" alt="image" src="https://github.com/user-attachments/assets/227de8bb-2265-4c1a-969f-625dde8a6ac2" />
+<img width="1282" height="190" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621096031-227de8bb-2265-4c1a-969f-625dde8a6ac2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T022115Z&X-Amz-Expires=300&X-Amz-Signature=a983a3ab11ddd72ce4592d69cc0b33d93575c0fe2c23c59fe06c0cdcdf18087d&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
 
 If you're curious to learn more about how to combine Evilginx and GoPhish, refer to [Evilgophish](https://github.com/fin3ss3g0d/evilgophish).  
 
