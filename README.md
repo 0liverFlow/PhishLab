@@ -1,4 +1,4 @@
-<img width="1676" height="821" alt="image" src="https://github.com/user-attachments/assets/b4f5a0b3-631e-4528-aee7-a019245f173a" /># Context
+# Context
 
 The goal of this lab is to help pentesters learn how to conduct a phishing campaign using GoPhish and Evilginx. It covers SMTP relay service configuration, GoPhish and Evilginx installation and configuration, domain name and VPS purchase, TLS certificate configuration, and defensive measures to detect a phishing website.  
 
@@ -853,8 +853,7 @@ git clone https://github.com/An0nUD4Y/Evilginx-Phishlets.git
 
 > Note that you can also create your own [phishlets](https://help.evilginx.com/pro/phishlets/) if you want to.  
 
-
-
+<img width="1616" height="982" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/619469985-dd728522-d13c-49d2-a439-8bc37edd1125.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T020700Z&X-Amz-Expires=300&X-Amz-Signature=9c4f61ec9ae0e55088a7cc0e445904ff855cae9abc2c565a4954a8d897f86da4&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
 
 Let's use the `wordpress.org.yaml` phishlet to better understand the structure of a phishlet:  
 
