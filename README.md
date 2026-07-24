@@ -135,7 +135,7 @@ Going back to your [dashboard](https://ap.www.namecheap.com/dashboard), you shou
 
 <img width="1116" height="117" alt="image" src="https://github.com/user-attachments/assets/6940ad1a-5e82-4d76-afac-73a6c5958dba" />
 
-<img width="1427" height="65" alt="image" src="https://github.com/user-attachments/assets/3dced6e7-f97e-40bd-8a7f-e724f39303a9" />  
+<img width="1427" height="65" alt="image" src="https://github.com/user-attachments/assets/c4408472-8ee8-41d1-a78b-ff0130d1bc5c" />
 
 <br></br>
 
@@ -853,13 +853,13 @@ git clone https://github.com/An0nUD4Y/Evilginx-Phishlets.git
 
 > Note that you can also create your own [phishlets](https://help.evilginx.com/pro/phishlets/) if you want to.  
 
-<img width="1616" height="982" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/619469985-dd728522-d13c-49d2-a439-8bc37edd1125.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T020700Z&X-Amz-Expires=300&X-Amz-Signature=9c4f61ec9ae0e55088a7cc0e445904ff855cae9abc2c565a4954a8d897f86da4&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1825" height="497" alt="image" src="https://github.com/user-attachments/assets/c2905a45-ff9e-472f-aa4e-7d71af3a1b26" />
 
 Let's use the `wordpress.org.yaml` phishlet to better understand the structure of a phishlet:  
 
-<img width="1616" height="982" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/625153502-4693a436-9c6a-4c32-9071-9509a3c92454.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021442Z&X-Amz-Expires=300&X-Amz-Signature=dc0b4447089149fa217409bf09dcee488a1f90dd854162373388ef4dbd3f84f5&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1616" height="982" alt="image" src="https://github.com/user-attachments/assets/dfabbef0-0979-479c-9a40-5f2d07c4356c" />
 
-<img width="1082" height="357" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/625152078-f54e6a9a-e125-4586-9702-8ce6e3aea6b2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021518Z&X-Amz-Expires=300&X-Amz-Signature=2aedf333de348e885a06a42d05a21c1b3918fecc77ed11a510da0ad14f72179e&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1082" height="357" alt="image" src="https://github.com/user-attachments/assets/89dfd58b-f3df-46a8-8731-3187c8d7562b" />
 
 Here is a quick explanation of the different fields in the yaml file:  
 
@@ -872,11 +872,9 @@ Note that the option `is_landing: true` tells Evilginx that this host is where v
 
 After that, add the highlighted subdomains (login, make, profiles) above to your phishing domain's DNS records as A records:  
 
-<img width="1377" height="217" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621053439-2f34e7ba-54e6-4611-b57f-0c73524e8f4a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021534Z&X-Amz-Expires=300&X-Amz-Signature=7345a695d52829c45c856e91607e41d772b457ca316b1597ab232e6456649f08&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
-
 Make sure, your phishlet is located in the `phishlets` directory, otherwise it won't be found by Evilginx:  
 
-<img width="777" height="52" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/619480643-fe934d8b-ba02-4b1d-b82e-a275b1854e22.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021544Z&X-Amz-Expires=300&X-Amz-Signature=54f753ced4dac0c0744883d7e547d8d54a7a446aa3d0cd86cef01bd6bc7fdc85&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="777" height="52" alt="image" src="https://github.com/user-attachments/assets/0e00861a-91e1-4a29-b5c9-a92b4268e874" />
 
 Once done, re-execute `evilginx`:  
 
@@ -884,7 +882,7 @@ Once done, re-execute `evilginx`:
 ./evilginx
 ```
 
-<img width="1636" height="770" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/619484230-f5cece78-402e-4a8f-981e-dee941945ef3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021555Z&X-Amz-Expires=300&X-Amz-Signature=b1d9e1fbb059db5f204248f2d586a6d33de046389daab2530a1dceb333212882&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1636" height="770" alt="image" src="https://github.com/user-attachments/assets/f6731624-3f17-4ea2-b96d-95a1f1dd2e9a" />
 
 To better understand how to use the `phishlets`, use this command:  
 
@@ -892,7 +890,7 @@ To better understand how to use the `phishlets`, use this command:
 help phishlets
 ```
 
-<img width="1777" height="772" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/619486796-fce8b1ce-40a3-4206-9ee5-7c0be580e2e5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021607Z&X-Amz-Expires=300&X-Amz-Signature=1d6763106b42f99c8bd5d9f21fdb81fabfd7b1596db495d2e556b7b889072256&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1202" height="62" alt="image" src="https://github.com/user-attachments/assets/4135e1ba-6cc5-41f8-ba72-95730549d076" />
 
 To hide the **example** phishlet, use this command:  
 
@@ -900,7 +898,7 @@ To hide the **example** phishlet, use this command:
 phishlets hide example
 ```
 
-<img width="1202" height="62" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/619488255-1031678a-43c2-40fe-802a-bfac3e72d76a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021620Z&X-Amz-Expires=300&X-Amz-Signature=019a90d5427075059afcb523430d33447f9adbf69c418a3fe7b3d913ef2b8d31&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1777" height="772" alt="image" src="https://github.com/user-attachments/assets/4c761a77-90e4-44af-8879-d1f96386891f" />
 
 To enable `wordpress.org` phishlet and request an SSL/TLS certificate, use the following command:  
 
@@ -908,7 +906,7 @@ To enable `wordpress.org` phishlet and request an SSL/TLS certificate, use the f
 phishlets enable wordpress.org
 ```
 
-<img width="1257" height="81" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/619489806-79142bb6-aafe-4d88-bfd7-fae542c9b83a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021631Z&X-Amz-Expires=300&X-Amz-Signature=39a7f8c72b122616b9822c63da5b657c9aee6ae27605292e7d609f24195d451d&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1257" height="81" alt="image" src="https://github.com/user-attachments/assets/cc78c639-c9b5-4d65-bf39-e4c541f01a1e" />
 
 This returned an error stating that `wordpress.org` phishlet requires its hostname to be set up.  
 
@@ -918,7 +916,7 @@ To fix that, use this command:
 phishlets hostname wordpress.org <your_phishing_domain>
 ```
 
-<img width="1005" height="53" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621058318-df9fbde4-d887-4d81-9559-c05c29294513.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021643Z&X-Amz-Expires=300&X-Amz-Signature=3427ca1d667ffe9083b9ca9e0396f5c316156fc0c15693f74fe09d1811ff806f&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+<img width="1005" height="53" alt="image" src="" />
 
 <img width="1122" height="210" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621059104-28729bfa-9d32-4c9d-9ab7-d85b23027f1d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021654Z&X-Amz-Expires=300&X-Amz-Signature=b0c9d450e6736fb6229d578c6383fd65c25fe3c745d87d86b087cace17861ccb&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
 
