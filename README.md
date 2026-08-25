@@ -1057,7 +1057,7 @@ If you're curious to learn more about how to combine Evilginx and GoPhish, refer
 - Use [mailtrap.io](https://mailtrap.io/) to test your phishing emails before sending them to your victims.
 - Check everything before launching your phishing campaign. Ensure your phishing tool captures credentials and session cookies correctly, and verify that it displays properly your phishing website across different browsers.
 - Close the loop. For example, redirect users to the legitimate website after capturing their credentials so they are less likely to realize they have been phished.
-- By default, Evilginx wEvilginx blocks IP addresses that access the server without a valid lure. If this happens, you will be redirected to [rickroll](https://www.youtube.com/watch?v=dQw4w9WgXcQ) video. To fix that, remove your IP address from `/root/.evilginx/blacklist.txt`
+- By default, Evilginx blocks IP addresses that access the server without a valid lure. If this happens, you will be redirected to [rickroll](https://www.youtube.com/watch?v=dQw4w9WgXcQ) video. To fix that, remove your IP address from `/root/.evilginx/blacklist.txt`
 
 # Resources
 
