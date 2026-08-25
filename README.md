@@ -57,7 +57,7 @@ To purchase a domain name you can use [Namecheap](https://www.namecheap.com/doma
 
 As you can see below, I entered **phishlab** in the search bar, and Namecheap returned some results like `phishlab.inc`, `phishlab.online`, etc.  
 
-<img width="1060" height="749" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621289226-94e2492f-652c-4757-ab46-09ac11865f3c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T011142Z&X-Amz-Expires=300&X-Amz-Signature=c3479d0f7bea294a1c94be91157602893ef9d9c8a6a7d3eb3db9ed660fdc3f9e&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+![domain name order](assets/01-domain-name-order.png)
 
 Depending on your budget, add a domain name to your cart, then follow the next instructions.  
 
@@ -65,7 +65,7 @@ Depending on your budget, add a domain name to your cart, then follow the next i
 
 Before confirming your order, make sure you disable the **auto-renew** option for your domain. If enabled, this will automatically renew your subscription. Once done, click on `Confirm Order`.  
 
-<img width="1356" height="647" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621287108-99295cc6-0753-4bbd-9a3b-ef8480cc0308.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T011429Z&X-Amz-Expires=300&X-Amz-Signature=b0397563dc2757098ee88948fb7697149bc0aa6eb48aedbf78cedea6b9e687f1&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+![](assets/02-domain-name-purchase.png)
 
 <br></br>
 
@@ -74,7 +74,7 @@ Before confirming your order, make sure you disable the **auto-renew** option fo
 The final step consists of purchasing your domain name after entering your credit card information.  
 Moreover do not select any additional options if not required. Once done, click on `Continue`.  
 
-<img width="1341" height="636" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621287825-e082ae3b-2aa3-430a-a2c6-77d3929a7ef9.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T011445Z&X-Amz-Expires=300&X-Amz-Signature=70a848090fc84030e116f164776d50c3ec353b4ea0bab73f95880dd34bb70aca&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+![](assets/03-domain-name-selection.png)
 
 <br></br>
 
@@ -82,7 +82,7 @@ Moreover do not select any additional options if not required. Once done, click 
 
 Here is how to access your domain:  
 
-<img width="1372" height="496" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621283869-7e7bb729-a302-4006-adb7-a15853c698f5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T011537Z&X-Amz-Expires=300&X-Amz-Signature=bb76e74cfe91917a7e65e7225a3c1d7472c74e93efdd1850b7ac166f88153fef&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+![](assets/04-namecheap-domain-list.png)
 
 # VPS Purchase
 
@@ -99,19 +99,19 @@ Here are the steps to buy a VPS on Namecheap:
 
 **1/ Select your VPS formula**  
 
-<img width="1532" height="997" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621305674-934d7bb6-e84e-4e17-a03a-0c5527e4a3ec.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T011555Z&X-Amz-Expires=300&X-Amz-Signature=4c95fbb201645efafd9ff309be009c426e669628e720d1ca9218a6a0fadecfac&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />  
+![](assets/05-vps-formula.png)  
 
 <br></br>
 
 Do not select any additional CPU, memory or hard drive space as this will cost you extra fees.  
   
-<img width="1422" height="882" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/620304926-2ed0cf03-b123-4656-a44c-aa10f9001f4a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T011611Z&X-Amz-Expires=300&X-Amz-Signature=980d100c2420c36db8b01cd17ac3c0d3e02a3a0152a4d0fdff4b45e56a791a0d&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />  
+![](assets/06-vps-configuration.png)  
 
 <br></br>
 
 **2/ Configure your VPS domain name, then add it to your cart**  
   
-<img width="1421" height="601" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/625137289-bbc8c4ec-5e67-480e-853c-775d93ea5caf.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T011627Z&X-Amz-Expires=300&X-Amz-Signature=f3b84d4104bcda4b0a69374c92e20e0b9bed2bb4dd141a8f1aaa379eb509027c&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+![](assets/)
 
 <br></br>
 
@@ -119,7 +119,7 @@ Do not select any additional CPU, memory or hard drive space as this will cost y
 
 Disable the **auto-renew** button when confirming your order, otherwise your subscription will automatically be renewed after its expiration.  
 
-<img width="1362" height="647" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/625134364-68d8171d-b543-4ac0-85b4-f67a2205553e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T011645Z&X-Amz-Expires=300&X-Amz-Signature=bc2a73f3c6fbdfcc2af932f89499eb9cb0b69ae6bb41dfc29724eebea9776b04&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+![](assets/07-vps-domain-name.png)
 
 <br></br>
 
@@ -127,37 +127,37 @@ Disable the **auto-renew** button when confirming your order, otherwise your sub
 
 Click on **Pay Now** after reviewing the details of your purchase and agreeing to the Terms of Service:  
 
-<img width="1421" height="601" alt="image" src="https://github.com/user-attachments/assets/5891cc18-23e6-4055-9534-c6ba55ef3e1a" />
+![](assets/08-vps-order.png)
 
 <br></br>
 
 Going back to your [dashboard](https://ap.www.namecheap.com/dashboard), you should see a server icon next to your domain name:  
 
-<img width="1116" height="117" alt="image" src="https://github.com/user-attachments/assets/6940ad1a-5e82-4d76-afac-73a6c5958dba" />
+![](assets/09-vps-purchase.png)
 
-<img width="1427" height="65" alt="image" src="https://github.com/user-attachments/assets/c4408472-8ee8-41d1-a78b-ff0130d1bc5c" />
+![](assets/10-vps-purchase-dashboard.png)
 
 <br></br>
 
 > Note that the VPS activation takes some time (**generally 15 minutes**). Therefore be patient. Once the VPS activated, you will receive the IP address and credentials in your mailbox.  
 
-<img width="1247" height="786" alt="image" src="https://github.com/user-attachments/assets/7f98e470-1fe1-4188-91d7-a212d2c006ad" />
+![](assets/11-vps-purchase-email.png)
 
 At the bottom of the mail, you will find your SSH credentials as well as the credentials to log in to the VPS admin panel.  
 
 To manage your VPS, click on the `Hosting List` section, then click on `GO TO VPS PANEL`:  
 
-<img width="1432" height="352" alt="image" src="https://github.com/user-attachments/assets/b1290754-1260-4cf9-a82f-98a9a18f3c14" />
+![](assets/12-vps-hosting-list.png)
 
 <br></br>
 
-<img width="1187" height="862" alt="image" src="https://github.com/user-attachments/assets/9a743454-29c5-45b9-9e05-69580fb9cf9e" />
+![](assets/13-vps-control.png)
 
 ## VPS Configuration
 
 Before trying to authenticate to your VPS, it must be online.  
 
-<img width="572" height="272" alt="image" src="https://github.com/user-attachments/assets/7e3ae664-2b1e-4351-9edd-6822f01ce59f" />
+![](assets/14-vps-configuration.png)
 
 Once this check done, you can use `ssh` to remotely access your server with the credentials provided in the mail you received:  
 
@@ -165,7 +165,7 @@ Once this check done, you can use `ssh` to remotely access your server with the 
 ssh root@<vps_ip_address>
 ```
 
-<img width="1442" height="807" alt="image" src="https://github.com/user-attachments/assets/e563f583-39b5-47c4-907f-ae329b0a2696" />
+![](assets/15-vps-ssh-authentication.png)
 
 One of the first command to execute after connecting to your VPS is:  
 
@@ -179,7 +179,7 @@ You can then generate an SSH key pair and disable password authentication for se
 ssh-keygen -t ed25519 -N '' -f id_ed25519
 ```
 
-<img width="1282" height="467" alt="image" src="https://github.com/user-attachments/assets/6a0b477f-5de5-4c5b-9241-fe780b43733b" />
+![](assets/16-vps-ssh-key-configuration.png)
 
 Copy your public key in the `.ssh` directory of your root user:  
 
@@ -187,9 +187,9 @@ Copy your public key in the `.ssh` directory of your root user:
 ssh-copy-id -i ~/.ssh/id_ed25519.pub root@<vps_ip_address>
 ```
 
-<img width="1515" height="347" alt="image" src="https://github.com/user-attachments/assets/a49d60f5-e749-4aec-b4ef-e5b59b8ecd17" />
+![](assets/17-vps-ssh-key-configuration2.png)
 
-<img width="1397" height="657" alt="image" src="https://github.com/user-attachments/assets/b4c06cb6-81b1-4849-b742-fa74bfe62d94" />
+![](assets/18-vps-ssh-key-authentication.png)
 
 
 To disable SSH password authentication, use this command:  
@@ -198,7 +198,7 @@ To disable SSH password authentication, use this command:
 nano /etc/ssh/sshd_config
 ```
 
-<img width="942" height="96" alt="image" src="https://github.com/user-attachments/assets/7a8af0ea-a560-4cb3-af18-b24a117f4ff0" />
+![](assets/19-vps-disable-ssh-password-authentication.png)
 
 ```bash
 systemctl restart ssh.service
@@ -221,7 +221,7 @@ apt install -y unzip
 unzip ./gophish-v0.12.1-linux-64bit.zip -d gophish
 ```
 
-<img width="982" height="62" alt="image" src="https://github.com/user-attachments/assets/2b71f13f-e5e6-4adb-8158-c8e03129470c" />
+![](assets/20-gophish-installation.png)
 
 
 ## Configuration
@@ -236,7 +236,7 @@ To check the status of the firewall, use this command:
 ufw status
 ```
 
-<img width="815" height="61" alt="image" src="https://github.com/user-attachments/assets/8ad5fd06-a51c-42ad-84dd-8a24f712f428" />
+![](assets/21-firewall-status.png)
 
 As you can see, the firewall is disabled (inactive). To enable it, use this command:  
 
@@ -244,7 +244,7 @@ As you can see, the firewall is disabled (inactive). To enable it, use this comm
 ufw enable
 ```
 
-<img width="1021" height="87" alt="image" src="https://github.com/user-attachments/assets/393c0cff-c252-4fb1-8f25-7bccb5f358a2" />
+![](assets/22-enable-firewall.png)
 
 After enabling the firewall, open ports 80, 443, and 22:  
 
@@ -260,7 +260,7 @@ Once done, you can check if the settings were properly applied using this comman
 ufw status
 ```
 
-<img width="957" height="292" alt="image" src="https://github.com/user-attachments/assets/59e73246-12cd-4e75-97e6-5f0489841ba0" />
+![](assets/23-firewall-status.png)
 
 Let's now configure our SMTP relay service.  
 
@@ -270,53 +270,53 @@ There are numerous SMTP relay services (Google Workplace, SendGrid, Mailgun, Mai
 
 To start with SendGrid, you will need to configure the domain name from which your emails will be sent. To do that, go to `Settings > Sender Authentication`, then click on `Authenticate your Domain`:  
 
-<img width="882" height="879" alt="image" src="https://github.com/user-attachments/assets/5f64af73-c8d1-44ea-af8f-d20183f15331" />
+![](assets/24-smtp-relay-service-configuration.png)
 
 After that, specify your phishing domain name, then click on next:  
 
-<img width="1377" height="500" alt="image" src="https://github.com/user-attachments/assets/85512bef-f4d6-4345-8925-008ae2003aa9" />
+![](assets/25-smtp-relay-service-configuration2.png)
 
 Then, you will need to add the following DNS records to your domain:  
 
-<img width="1667" height="822" alt="image" src="https://github.com/user-attachments/assets/9d3b9e94-9dc6-428c-8fa0-9c1d8a3d77e9" />
+![](assets/26-smtp-relay-service-dns-records.png)
 
 To do that, go back to Namecheap's `Domain List`, then click on `Manage`:  
 
-<img width="1400" height="681" alt="image" src="https://github.com/user-attachments/assets/114d7d72-8de7-4f17-ab6a-d3c14d807a64" />
+![](assets/27-namecheap-domain-list.png)
 
 Next, click on `Advanced DNS`:  
 
-<img width="1358" height="557" alt="image" src="https://github.com/user-attachments/assets/4be1fafb-4a57-4438-a65e-c7da8ad4aa69" />
+![](assets/28-namecheap-domain-list-advanced-dns.png)
 
 Finally, go down and click on the `ADD NEW RECORD` button:  
 
-<img width="1104" height="362" alt="image" src="https://github.com/user-attachments/assets/18dcd9d4-7d7d-46c3-9ff0-dc7cc030c5b2" />
+![](assets/29-namecheap-domain-name-records-configuration.png)
 
 After adding all the records highlighted above, go back to SendGrid and check the box `I've added these records`, then click on Verify:  
 
-<img width="1676" height="821" alt="image" src="https://github.com/user-attachments/assets/a7a1651b-3437-4d9d-a4a1-d2882b76bf9e" />
+![](assets/30-sendgrid-dns-records.png)
 
 If everything goes as planned, you must see a new column `Status` with the value `Verified`:  
 
-<img width="1878" height="792" alt="image" src="https://github.com/user-attachments/assets/fe8b6822-caa5-455e-9e8d-16c42f07d66c" />
+![](assets/31-verify-sendgrid-dns-records.png)
 
 To get the SMTP server information (user, password, email server, etc.), go to `Email API > Integration Guide`, then select `SMTP Relay`:  
 
-<img width="1587" height="630" alt="image" src="https://github.com/user-attachments/assets/2a8ca40d-c15a-41ff-9ec3-be621052200e" />
+![](assets/32-sendgrid-email-api.png)
 
 <br></br>
 
-<img width="1420" height="767" alt="image" src="https://github.com/user-attachments/assets/e7820695-497a-4dbf-b2b9-136bd31d39c9" />
+![](assets/33-sendgrid-smtp-relay-configuration.png)
 
 As you can see, the server name and username are respectively **smtp.sendgrid.net** and **apikey**. The password is your API key.  
 
 To generate an API key, go to `Settings > API Keys`, then create a new API Key:  
 
-<img width="1797" height="716" alt="image" src="https://github.com/user-attachments/assets/50ba5422-5606-47a1-b103-831890e8c17e" />
+![](assets/34-sendgrid-create-email-api-key.png)
 
 <br></br>
 
-<img width="797" height="362" alt="image" src="https://github.com/user-attachments/assets/bdb74c0d-6dbe-4fed-a025-30b7046e3042" />
+![](assets/35-sendgrid-created-api-key.png)
 
 Make sure to copy your API Key in a secure place as you won't be able to retrieve it again.  
 Well, let's now configure GoPhish's admin panel server.  
@@ -327,7 +327,7 @@ To configure GoPhish, we are going to edit the `config.json` file located in GoP
 
 Here is its default content:  
 
-<img width="1212" height="607" alt="image" src="https://github.com/user-attachments/assets/086faf45-fdcd-4f0e-b689-53ba46f57b80" />
+![](assets/36-gophish-admin-panel-server.png)
 
 To start, change the `listen_url` of your Gophish Admin Server to `0.0.0.0:3333` to listen on all interfaces. To do that, you can use your favorite command line editor, or simply use this command:  
 
@@ -335,7 +335,7 @@ To start, change the `listen_url` of your Gophish Admin Server to `0.0.0.0:3333`
 sed -i 's/127.0.0.1/0.0.0.0/g' config.json
 ```
 
-<img width="1035" height="192" alt="image" src="https://github.com/user-attachments/assets/df6b2638-844a-43fc-8af3-f2544a6fc540" />
+![](assets/37-gophish-admin-panel-server-configuration.png)
 
 If you do not want to change the local IP address to `0.0.0.0`, you could use a SSH local port forwarding from your attacker machine:  
 
@@ -364,7 +364,7 @@ ExecStart=$HOME/gophish/gophish
 WantedBy=multi-user.target
 ```
 
-<img width="972" height="287" alt="image" src="https://github.com/user-attachments/assets/79a251bf-81de-48e2-b854-ae960ef8872f" />
+![](assets/38-gophish-service.png)
 
 > Do not hesitate to change `$HOME/gophish/` if you installed GoPhish in another directory.  
 
@@ -374,7 +374,7 @@ Once done, you can enable your `GoPhish` service using this command:
 sudo systemctl enable /etc/systemd/system/gophish.service
 ```
 
-<img width="1487" height="57" alt="image" src="https://github.com/user-attachments/assets/5d8f790b-880c-4a80-ae35-46894b65de86" />
+![](assets/39-enable-gophish-service.png)
 
 After that, you can start the service with this command:  
 
@@ -385,7 +385,7 @@ sudo systemctl start gophish
 
 Note that, you must give execution permissions to the `gophish` binary before starting the service, otherwise it will fail to start.
 
-<img width="1822" height="602" alt="image" src="https://github.com/user-attachments/assets/a2e4a2a5-acdd-42fa-8ea7-c22d58f57b35" />
+![](assets/40-start-gophish-service.png)
 
 To get GoPhish admin panel's password, run the binary:  
 
@@ -393,7 +393,7 @@ To get GoPhish admin panel's password, run the binary:
 ./gophish
 ```
 
-<img width="1511" height="237" alt="image" src="https://github.com/user-attachments/assets/6bff6874-a5b9-4822-99ae-33809f34151f" />
+![](assets/41-gophish-execution.png)
 
 > By default, GoPhish generates a random password of 16 alphanumerical characters. The default username is `admin`.  
 
@@ -411,24 +411,24 @@ To check if the configurations were successfully applied, use this command:
 ufw status
 ```
 
-<img width="1067" height="217" alt="image" src="https://github.com/user-attachments/assets/544db162-37be-4179-a1aa-4daff75d39c7" />
+![](assets/42-firewall-status.png)
 
 Let's now access GoPhish admin panel:  
 
-<img width="3020" height="1196" alt="image" src="https://github.com/user-attachments/assets/f4464853-9b3b-402e-82a4-e4fb9b0d9d89" />
+![](assets/43-gophish-admin-panel.png)
 
 After specifying your credentials, you will need to reset your password:  
 
-<img width="955" height="601" alt="image" src="https://github.com/user-attachments/assets/779f62d0-1ddf-4f18-b32c-e32242eb2a0a" />
+![](assets/44-gophish-admin-panel-password-reset.png)
 
-<img width="1222" height="677" alt="image" src="https://github.com/user-attachments/assets/b576d997-17c2-45fc-905c-352e649ac755" />
+![](assets/45-gophish-admin-panel-dashboard.png)
 
 ### Phishing Server
 
 In this section, we are going to configure the phishing server that will host our phishing website.  
 By default, this port listens on `0.0.0.0:80`. To access it, you will first need to link your phishing domain with your VPS IP address. This can be done by adding an `A` record to your DNS configuration.  
 
-<img width="1102" height="57" alt="image" src="https://github.com/user-attachments/assets/2a55bedc-e4f2-4858-98f6-05c2a1243862" />
+![](assets/46-exposing-gophish-server.png)
 
 > The **@** symbol represents the root (apex) domain. This is a shorthand for the domain itself (phishlab.xyz), not a subdomain.   
 
@@ -438,12 +438,12 @@ To check if the record was successfully added, use this command:
 nslookup phishlab.xyz
 ```
 
-<img width="997" height="187" alt="image" src="https://github.com/user-attachments/assets/6a5c1a29-03ba-43f2-bc51-e679184d2052" />
+![](assets/47-checking-phishing-domain-resolution.png)
 
 As you can see, nslookup resolution worked which means that my record was successfully added.  
 After that, you should be able to access your phishing domain:  
 
-<img width="597" height="75" alt="image" src="https://github.com/user-attachments/assets/04e44622-43da-4cf8-8eef-b26a58c2f896" />
+![](assets/gophish-default-404-page.png)
 
 By default, this returns the default 404 page. However, it works!  
 
@@ -453,7 +453,7 @@ Using an HTTP website for a phishing campaign is not a great idea as it may rais
 
 By default, your phishing server listens on port 80, which may trigger warnings in the target's browser.  
 
-<img width="596" height="57" alt="image" src="https://github.com/user-attachments/assets/c3b1e891-f61b-44ef-bd35-08b9c4a96a61" />
+![](assets/48-phishing-server-url.png)
 
 To deal with that, let's first install [certbot](https://certbot.eff.org/pages/about):  
 
@@ -461,7 +461,7 @@ To deal with that, let's first install [certbot](https://certbot.eff.org/pages/a
 sudo apt install -y certbot
 ```
 
-<img width="1787" height="420" alt="image" src="https://github.com/user-attachments/assets/38ca12b7-f8a0-4cc6-9cba-a1b35b42808f" />
+![](assets/49-tls-certificate-configuration.png)
 
 To generate a new `Let’s Encrypt` certificate, use this command:  
 
@@ -469,19 +469,19 @@ To generate a new `Let’s Encrypt` certificate, use this command:
 certbot certonly -d '<your_phishing_domain_name>' --manual --preferred-challenges dns --register-unsafely-without-email
 ```
 
-<img width="1708" height="780" alt="image" src="https://github.com/user-attachments/assets/05d9ba86-5671-40a1-9b04-cf896de7c211" />
+![](assets/50-tls-certificate-configuration2.png)
 
 Then, add the `_acme-challenge` TXT record to your DNS configuration.  
 
-<img width="1097" height="51" alt="image" src="https://github.com/user-attachments/assets/5882c579-9bf7-4d49-be94-1f03a15970ed" />
+![](assets/51-tls-certificate-configuration3.png)
 
 Once done, you can use [Google Admin Toolbox](https://toolbox.googleapps.com/apps/dig/#TXT/) to check if the record was successfully added:  
 
-<img width="1527" height="691" alt="image" src="https://github.com/user-attachments/assets/2b16fe26-cc6c-4c44-ae64-ec212553bf54" />
+![](assets/52-tls-certificate-configuration4.png)
 
 After that, go back to `certbot` command line, and press `[ENTER]` to continue.  
 
-<img width="1841" height="420" alt="image" src="https://github.com/user-attachments/assets/e090193f-c9ea-47a3-b5d9-96d12a6698f1" />
+![](assets/53-tls-certificate-configuration-done.png)
 
 If everything goes as planned, `certbot` will generate a certificate with its corresponding private key in the `/etc/letsencrypt/live/` directory.  
 
@@ -492,11 +492,11 @@ Then, you can update your `config.json` file by making the following changes:
 - Change `cert_path` with the certificate (.pem) generated by certbot
 - Change `key_path` with the private key (.pem) generated by certbot
 
-<img width="1587" height="602" alt="image" src="https://github.com/user-attachments/assets/1a06af76-0fe7-4c19-88f0-cd9858f36ec0" />
+![](assets/54-modifying-gophish-server-listen-url.png)
 
 Once done, you should now be able to access your phishing website using HTTPS:  
 
-<img width="1222" height="582" alt="image" src="https://github.com/user-attachments/assets/99b1d34c-ce60-45f6-8eb6-d4177c48d744" />
+![](assets/55-opening-phishing-url-in-browser.png)
 
 Let's now start our first phishing campaign. Shall we?  
 
@@ -506,29 +506,29 @@ Let's now start our first phishing campaign. Shall we?
 
 To create a new sending profile, click on the `Sending Profiles` section:  
 
-<img width="3002" height="696" alt="image" src="https://github.com/user-attachments/assets/4526ecc3-7ae9-4ae8-a907-5439e27b82e7" />
+![](assets/56-gophish-sending-profiles.png)
 
 Before creating your profile, you will need to verify that you own the email address that will be used by GoPhish for sending phishing emails to your targets.  
 
 If you used SendGrid as a SMTP relay service, go to `Settings > Sender Authentication > Single Sender Verification`:  
 
-<img width="877" height="873" alt="image" src="https://github.com/user-attachments/assets/eca670c4-6e6e-413b-8f58-523e05ca49e0" />
+![](assets/57-sendgrid-single-sender-verification.png)
 
 After clicking on `Verify a Single Sender`, click on `Create New Sender`:  
 
-<img width="1678" height="110" alt="image" src="https://github.com/user-attachments/assets/fed9716b-5845-4015-b591-f95d65f96019" />
+![](assets/creating-a-new-sender-in-sendgrid.png)
 
 Then, fill out the fields with your information:  
 
-<img width="1622" height="713" alt="image" src="https://github.com/user-attachments/assets/6db97ef3-3af9-400e-ac71-f2f485dcaf37" />
+![](assets/58-sendgrid-single-sender-configuration.png)
 
 If everything goes as planned, you must see a new entry in the `Single Sender Verification` section:  
 
-<img width="1678" height="257" alt="image" src="https://github.com/user-attachments/assets/af067a58-781e-46b2-9e72-649d1dd065fc" />
+![](assets/sendgrid-single-sender-verification.png)
 
 The overall configuration must look like this:  
 
-<img width="1451" height="805" alt="image" src="https://github.com/user-attachments/assets/a9af2641-7fe8-49ac-bd0b-74751a722bb6" />
+![](assets/59-sendgrid-sender-authentication.png)
 
 Once the `Single Sender Verification` configuration done, proceed by adding a new sending profile in GoPhish.  
 
@@ -541,27 +541,27 @@ To do that, complete your sending profile with these information:
 
 > Note that this only works for SendGrid SMTP relay service. For instance, Gmail SMTP relay service configuration will look like [this](https://youtu.be/8Q6EtC8jzpM?si=zNWM14EOkdW7yYgb&t=74).
 
-<img width="1296" height="990" alt="image" src="https://github.com/user-attachments/assets/93af3c84-13d2-4673-a31b-b1d337f5b965" />
+![](assets/60-gophish-sending-profiles-configuration.png)
 
 To test your sending profile configuration, you can click on `Send Test Email`. This will try to send an email to a target email address of your choice using the SMTP relay service you configured in the `Sending Profile` section.  
 
 To generate a temporary email, you can use [temp-mail](https://temp-mail.org/).  
 
-<img width="576" height="252" alt="image" src="https://github.com/user-attachments/assets/d16b7209-cf27-45c6-af1e-ebc73d02e909" />
+![](assets/61-tempmail-email-generation.png)
 
 After generating your temporary email, click on `Send Test Email`, then fill out the fields and click on Send` to send your test email.  
 
-<img width="1302" height="992" alt="image" src="https://github.com/user-attachments/assets/a6027d12-0013-45d1-bcb2-55d178efb1d7" />
+![](assets/62-testing-sending-profiles-configuration.png)
 
 You should normally see this message:  
 
-<img width="687" height="312" alt="image" src="https://github.com/user-attachments/assets/d661a7fd-1651-4ed2-bf83-900b1656ffa3" />
+![](assets/63-sending-email-via-sending-profiles.png)
 
 When taking a look to your temporary email's inbox, you should receive an email:  
 
-<img width="720" height="191" alt="image" src="https://github.com/user-attachments/assets/a411cb2b-e4f9-417e-9281-3d6bc63015d2" />
+![](assets/64-receiving-phishing-email.png)
 
-<img width="717" height="331" alt="image" src="https://github.com/user-attachments/assets/f7aec560-0bbf-41c4-960a-61e2a8ca3e29" />
+![](assets/gophish-phishing-email.png)
 
 Finally save your changes to avoid losing them.
 
@@ -569,7 +569,8 @@ Finally save your changes to avoid losing them.
 
 **[Email templates](https://docs.getgophish.com/user-guide/documentation/templates)** is the content of the email that is sent to your targets. This is what your targets will read.  
 
-<img width="1300" height="992" alt="image" src="https://github.com/user-attachments/assets/561097d0-ec23-4277-9f8e-6fe88bc57c95" />
+68-importing-landing-page.png
+![](assets/65-email-templates-configuration.png)
 
 In this section, you will need to provide these information:  
 
@@ -602,7 +603,7 @@ Note that you can import an email's source code using the `Import Email` button.
 
 As usual, make sure to save your template to not lose your modifications.  
 
-<img width="680" height="67" alt="image" src="https://github.com/user-attachments/assets/f6d9a977-83a1-430a-a93d-1213e5ee9673" />
+![](assets/66-saving-email-templates-configuration.png)
 
 ### Landing Pages
 
@@ -612,19 +613,19 @@ Let's try to clone [Wordpress.org's login page](https://login.wordpress.org/).
 
 To do that, click on the `Import Site` button on the `Landing Pages` section:  
 
-<img width="1307" height="763" alt="image" src="https://github.com/user-attachments/assets/11796813-1d41-437e-ac7d-d4c3fd551bcb" />
+![](assets/67-landing-pages-configuration.png)
 
 <br></br>
 
-<img width="686" height="263" alt="image" src="https://github.com/user-attachments/assets/6c82343a-484c-47ee-b121-ae4957197bf7" />
+![](assets/68-importing-landing-page.png)
 
 <br></br>
 
-<img width="1297" height="993" alt="image" src="https://github.com/user-attachments/assets/37cd7da6-8392-45bd-a7f9-5f5fc4435320" />
+![](assets/69-editing-landing-page.png)
 
 As you can see the page was successfully cloned. To capture credentials, check the "Capture Submitted Data" and "Capture Passwords" boxes. Furthermore, to avoid raising any suspicion, you can redirect the target to a website of your choice:  
 
-<img width="677" height="178" alt="image" src="https://github.com/user-attachments/assets/f424d607-baea-4713-9f93-8c3556b90961" />
+![](assets/70-landing-page-redirecting-to-configuration.png)
 
 After that, save your landing page configuration.  
 
@@ -632,13 +633,13 @@ After that, save your landing page configuration.
 
 **[Users & Groups](https://docs.getgophish.com/user-guide/documentation/groups)** section is used to specify the target users to which your email will be sent. These users will be placed in various groups depending on their roles, permissions, etc. For instance, the email you will send to executives will not be the same as the email you will send to HR.  
 
-<img width="1301" height="600" alt="image" src="https://github.com/user-attachments/assets/6ce3a30b-5db7-46f7-a85a-6773feeea36e" />
+![](assets/71-users-groups-configuration.png)
 
 Note that, you can also add users by importing them using a `.csv` file.  
 
 Once done, click on save.  
 
-<img width="1325" height="437" alt="image" src="https://github.com/user-attachments/assets/7b09bbc4-c6b0-45ee-ae6c-bb7e2b150d4d" />
+![](assets/72-IT-group-creation.png)
 
 
 ### Campaigns
@@ -647,7 +648,7 @@ Once done, click on save.
 
 To launch your campaign, click on the `Campaigns` section:  
 
-<img width="1303" height="788" alt="image" src="https://github.com/user-attachments/assets/a8555b52-769f-412d-b679-90e97c272adc" />
+![](assets/73-campaigns-configuration.png)
 
 Make sure to replace the `URL` section with your phishing website URL.  
 
@@ -655,46 +656,45 @@ Before starting your phishing campaign, you can test if everything works properl
 
 After that, launch your campaign by clicking on the `Launch Campaign` button:  
 
-<img width="1305" height="788" alt="image" src="https://github.com/user-attachments/assets/277a632b-5944-4c75-bb33-48fdbac86f92" />
+![](assets/74-launching-campaign.png)
 
 You should see a dashboard similar to this one:  
 
-<img width="1582" height="876" alt="image" src="https://github.com/user-attachments/assets/dfcbaffa-3795-4059-85ce-e01f2531c1e8" />
+![](assets/75-campaign-results.png)
 
 When taking a look at the target's mailbox, we can see that they receive our phishing email:  
 
-<img width="713" height="57" alt="image" src="https://github.com/user-attachments/assets/7df07cd2-c87f-48a9-911e-0c472598b2f7" />
+![](assets/76-target-mailbox.png)
 
 Here is the content of the email:  
 
-<img width="700" height="276" alt="image" src="https://github.com/user-attachments/assets/b46a1fd2-e45e-4e36-9eb9-6cd3f13b4a69" />
+![](assets/77-phishing-email-received-by-the-target.png)
 
 Let's try to click on the phishing link:  
 
-<img width="1587" height="813" alt="image" src="https://github.com/user-attachments/assets/7ba0bb55-f42b-4aef-80e0-2d76987e8a01" />
+![](assets/78-clicking-on-phishing-link.png)
 
 We are redirected to the phishing website specified in the `Landing Pages` section.  
 
 When taking a look at the `Campaigns` section, you can see that GoPhish highlighted that the target opened the email address and clicked on the link.  
 
-<img width="1566" height="815" alt="image" src="https://github.com/user-attachments/assets/4d2c464e-026d-433a-8933-d44b9b372701" />
+![](assets/79-refreshing-campaign-results.png)
 
 Let's now try to enter some credentials:  
 
-<img width="1583" height="809" alt="image" src="https://github.com/user-attachments/assets/4351e859-09d0-4b44-8ac6-8da96b9ebebf" />
+![](assets/80-entering-credentials-in-the-phishing-website.png)
 
 This redirected us to `https://login.wordpress.org` which is the URL we configured in the `Landing Pages` section.  
 
-<img width="1592" height="819" alt="image" src="https://github.com/user-attachments/assets/06c73493-bd4d-4574-9af8-59263effcf12" />
+![](assets/81-redirection-to-the-legitimate-wordpress-website.png)
 
 When visualizing our GoPhish campaign dashboard, we can see that the target submitted data:  
 
-<img width="1576" height="812" alt="image" src="https://github.com/user-attachments/assets/41c37c16-b46d-4fe3-b630-90366ad1a849" />
+![](assets/82-exploring-target-intercepted-credentials-in-gophish.png)
 
-<img width="1565" height="1015" alt="image" src="https://github.com/user-attachments/assets/face8177-59e7-4216-8656-e3ed56b4e3ae" />
+![](assets/gophish-intercepted-credentials.png)
 
 As you can see, GoPhish intercepted the username and password of the target. Using that, we can attempt to authenticate to their account.  
-
 
 # Evilginx Community
 
@@ -719,7 +719,7 @@ go build
 
 > Do not interrupt the build, as it may take a few seconds to complete.  
 
-<img width="1507" height="82" alt="image" src="https://github.com/user-attachments/assets/07aefb94-6367-4b4b-91ae-6e53c24c1a85" />
+![](assets/)
 
 To install Evilginx using its [binary](https://github.com/kgretzky/evilginx2/releases/latest), follow these steps:  
 
@@ -727,13 +727,13 @@ To install Evilginx using its [binary](https://github.com/kgretzky/evilginx2/rel
 wget https://github.com/kgretzky/evilginx2/releases/download/v3.3.0/evilginx-v3.3.0-linux-64bit.zip
 ```
 
-<img width="1552" height="52" alt="image" src="https://github.com/user-attachments/assets/de13d749-d1f1-4a02-84ce-8a8a1ed9ab4e" />
+![](assets/)
 
 ```bash
 unzip evilginx-v3.3.0-linux-64bit.zip -d evilginx
 ```
 
-<img width="1127" height="207" alt="image" src="https://github.com/user-attachments/assets/f13053ff-ca2f-4c10-a64d-603304a790bf" />
+![](assets/)
 
 After that, give `evilginx` execution permissions:  
 
@@ -741,7 +741,7 @@ After that, give `evilginx` execution permissions:
 chmod +x ./evilginx
 ```
 
-<img width="977" height="80" alt="image" src="https://github.com/user-attachments/assets/79f9808a-580a-4f50-85b7-71d2e6cfcb09" />
+![](assets/)
 
 Once done, launch `evilginx`:  
 
@@ -749,7 +749,7 @@ Once done, launch `evilginx`:
 ./evilginx
 ```
 
-<img width="1674" height="951" alt="image" src="https://github.com/user-attachments/assets/7ed52dc8-bc9d-461c-ba4b-a28a8f5fc967" />
+![](assets/)
 
 As you can see, Evilginx failed to start a DNS server on `port 53`. This occured because the port is being used by another process on the system. To check it, use this command:  
 
@@ -757,7 +757,7 @@ As you can see, Evilginx failed to start a DNS server on `port 53`. This occured
 sudo lsof -i :53
 ```
 
-<img width="1211" height="157" alt="image" src="https://github.com/user-attachments/assets/8034fbc2-b6f4-48d4-823c-736cb5213a26" />
+![](assets/)
 
 To deal with that, you will first need to stop the `systemd-resolved` service, then remove the `/etc/resolv.conf` file:  
 
@@ -769,13 +769,13 @@ sudo systemctl stop systemd-resolved.service
 lsof -i :53
 ```
 
-<img width="877" height="52" alt="image" src="https://github.com/user-attachments/assets/5495645b-b7f4-4709-8305-e1e4dc0bf94a" />
+![](assets/)
 
 ```bash
 mv /etc/resolv.conf /etc/resolv.conf.bak
 ```
 
-<img width="901" height="30" alt="image" src="https://github.com/user-attachments/assets/7a3755ec-0c98-4c07-86d2-12502c8a8f5d" />
+![](assets/)
 
 After that, execute the following command to create a new `/etc/resolv.conf` with your favorite recursive DNS servers:  
 
@@ -783,7 +783,7 @@ After that, execute the following command to create a new `/etc/resolv.conf` wit
 echo -e 'nameserver 1.1.1.1\nnameserver 9.9.9.9' >> /etc/resolv.conf
 ```
 
-<img width="982" height="82" alt="image" src="https://github.com/user-attachments/assets/160d521d-fdbb-40f5-91d7-7db82cfd366f" />
+![](assets/)
 
 To check if the DNS resolution works, you can perform an `nslookup`:  
 
@@ -791,11 +791,11 @@ To check if the DNS resolution works, you can perform an `nslookup`:
 nslookup google.com
 ```
 
-<img width="1455" height="657" alt="image" src="https://github.com/user-attachments/assets/82f2f258-5b78-42e4-adf8-f9e454b7f8fa" />
+![](assets/)
 
 See that Evilginx uses port `tcp/443` to host your phishing website, you will need to reconfigure your GoPhish's phishing server URL to listen on another port (eg: tcp/8843).  
 
-<img width="1422" height="602" alt="image" src="https://github.com/user-attachments/assets/370c6449-850b-4458-be6b-c80ae873d5e7" />
+![](assets/)
 
 After that, restart your Gophish service to apply the changes:  
 
@@ -807,7 +807,7 @@ systemctl restart gophish
 systemctl status gophish
 ```
 
-<img width="1671" height="255" alt="image" src="https://github.com/user-attachments/assets/2a7a18cd-4592-4a4d-bf7e-cba18e739166" />
+![](assets/)
 
 Let's now configure the domain, and the external IPv4 address:  
 
@@ -815,17 +815,17 @@ Let's now configure the domain, and the external IPv4 address:
 config domain <your_phishing_domain_name>
 ```
 
-<img width="977" height="57" alt="image" src="https://github.com/user-attachments/assets/bee72247-9747-46d2-87a9-7970446b87ce" />
+![](assets/)
 
 ```
 config ipv4 external <your_phishing_domain_ipv4_address>
 ```
 
-<img width="792" height="52" alt="image" src="https://github.com/user-attachments/assets/c6e633a2-4e8d-401d-abbe-84a18c23712f" />
+![](assets/)
 
 Enter the `Help` command to get some help:  
 
-<img width="1242" height="325" alt="image" src="https://github.com/user-attachments/assets/a942c44a-d7b6-4a2b-a203-415da9e3de61" />
+![](assets/)
 
 In the next section, we will learn how to configure phishlets.  
 
@@ -841,7 +841,7 @@ cd phishlets/
 cat example.yaml
 ```
 
-<img width="1906" height="647" alt="image" src="https://github.com/user-attachments/assets/7e57b93c-eaf9-4a0b-8b8d-5e27aacab63a" />
+![](assets/)
 
 Refer to the command below to download more phishlets [here](https://github.com/An0nUD4Y/Evilginx-Phishlets).  
 
@@ -849,17 +849,17 @@ Refer to the command below to download more phishlets [here](https://github.com/
 git clone https://github.com/An0nUD4Y/Evilginx-Phishlets.git
 ```
 
-<img width="1287" height="211" alt="image" src="https://github.com/user-attachments/assets/2efe313a-4a6b-47cc-8dd6-46e05c13ece1" />
+![](assets/)
 
 > Note that you can also create your own [phishlets](https://help.evilginx.com/pro/phishlets/) if you want to.  
 
-<img width="1825" height="497" alt="image" src="https://github.com/user-attachments/assets/c2905a45-ff9e-472f-aa4e-7d71af3a1b26" />
+![](assets/)
 
 Let's use the `wordpress.org.yaml` phishlet to better understand the structure of a phishlet:  
 
-<img width="1616" height="982" alt="image" src="https://github.com/user-attachments/assets/dfabbef0-0979-479c-9a40-5f2d07c4356c" />
+![](assets/)
 
-<img width="1082" height="357" alt="image" src="https://github.com/user-attachments/assets/89dfd58b-f3df-46a8-8731-3187c8d7562b" />
+![](assets/)
 
 Here is a quick explanation of the different fields in the yaml file:  
 
@@ -874,7 +874,7 @@ After that, add the highlighted subdomains (login, make, profiles) above to your
 
 Make sure, your phishlet is located in the `phishlets` directory, otherwise it won't be found by Evilginx:  
 
-<img width="777" height="52" alt="image" src="https://github.com/user-attachments/assets/0e00861a-91e1-4a29-b5c9-a92b4268e874" />
+![](assets/)
 
 Once done, re-execute `evilginx`:  
 
@@ -882,7 +882,7 @@ Once done, re-execute `evilginx`:
 ./evilginx
 ```
 
-<img width="1636" height="770" alt="image" src="https://github.com/user-attachments/assets/f6731624-3f17-4ea2-b96d-95a1f1dd2e9a" />
+![](assets/)
 
 To better understand how to use the `phishlets`, use this command:  
 
@@ -890,7 +890,7 @@ To better understand how to use the `phishlets`, use this command:
 help phishlets
 ```
 
-<img width="1202" height="62" alt="image" src="https://github.com/user-attachments/assets/4135e1ba-6cc5-41f8-ba72-95730549d076" />
+![](assets/)
 
 To hide the **example** phishlet, use this command:  
 
@@ -898,7 +898,7 @@ To hide the **example** phishlet, use this command:
 phishlets hide example
 ```
 
-<img width="1777" height="772" alt="image" src="https://github.com/user-attachments/assets/4c761a77-90e4-44af-8879-d1f96386891f" />
+![](assets/)
 
 To enable `wordpress.org` phishlet and request an SSL/TLS certificate, use the following command:  
 
@@ -906,7 +906,7 @@ To enable `wordpress.org` phishlet and request an SSL/TLS certificate, use the f
 phishlets enable wordpress.org
 ```
 
-<img width="1257" height="81" alt="image" src="https://github.com/user-attachments/assets/cc78c639-c9b5-4d65-bf39-e4c541f01a1e" />
+![](assets/)
 
 This returned an error stating that `wordpress.org` phishlet requires its hostname to be set up.  
 
@@ -916,9 +916,9 @@ To fix that, use this command:
 phishlets hostname wordpress.org <your_phishing_domain>
 ```
 
-<img width="1005" height="53" alt="image" src="https://github.com/user-attachments/assets/ef6b73d8-033e-4dfb-befe-0d761a39e442" />
+![](assets/)
 
-<img width="1122" height="210" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621059104-28729bfa-9d32-4c9d-9ab7-d85b23027f1d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021654Z&X-Amz-Expires=300&X-Amz-Signature=b0c9d450e6736fb6229d578c6383fd65c25fe3c745d87d86b087cace17861ccb&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+![](assets/)
 
 After that, enable the phishlet:  
 
@@ -926,21 +926,21 @@ After that, enable the phishlet:
 phishlets enable wordpress.org
 ```
 
-<img width="1907" height="445" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621061789-b28882a2-3fea-49bf-889a-ccc08fcbb6ee.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021704Z&X-Amz-Expires=300&X-Amz-Signature=167b8ae1e14f2d66f0bc2ed2ebf888ea41bb4cc87f4a12fa6f1479fcfb925b0e&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+![](assets/)
 
-<img width="1157" height="205" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621065141-b69b89ad-e281-4437-9cc2-f516c8f90f4d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021718Z&X-Amz-Expires=300&X-Amz-Signature=2970a3a6aefde4a79678d305db5445993c9c67b4627e16d94a268b653578e326&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+![](assets/)
 
 In my case, it worked. However, you may come across this error when enabling your phishlet:
 
-<img width="1907" height="306" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/619502330-9611256c-1346-4315-8a9d-b751a6d5251d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021728Z&X-Amz-Expires=300&X-Amz-Signature=3474c4e15eadffb935de43ff6e42846a83c607d3db65998903d247ff472380e9&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+![](assets/)
 
 To fix that, you will need to add the `_acme_challenge` TXT record with the value returned by Evilginx.  
 
-<img width="947" height="52" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/619504495-3592da3e-5479-4c27-ba02-ee2162ec9f3a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021746Z&X-Amz-Expires=300&X-Amz-Signature=a6a2ae3de86da5d8bd4dc8498c49f20c0efb6ccd91b84ab111369ec8331e91f5&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+![](assets/)
 
-<img width="1832" height="807" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/619563199-a22eca23-4fa0-4dad-9e31-c92110579fb0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021757Z&X-Amz-Expires=300&X-Amz-Signature=5a77b59b3e04ec07042211ab0a3fbe49ce26b4bee3fee8d34003dd802f1ca347&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+![](assets/)
 
-<img width="1257" height="207" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/619563948-b707755c-3860-4172-8ec9-98a043211430.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021807Z&X-Amz-Expires=300&X-Amz-Signature=92da649b81cb0a6354e104bba04cce04f3a63e83278f114aa871c789845add30&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+![](assets/)
 
 Here is a little trick to disable log output for blacklist messages:  
 
@@ -948,7 +948,7 @@ Here is a little trick to disable log output for blacklist messages:
 blacklist log off
 ```
 
-<img width="1042" height="72" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621087634-fcfe63a6-63b4-4722-8d20-43881558d682.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021817Z&X-Amz-Expires=300&X-Amz-Signature=4687b928e96edc866e61f5fdea4c45b204f0055bb749b39240727e0fb932cb2b&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+![](assets/)
 
 This tells Evilginx to stop showing warnings regarding blacklisted IP addresses.  
 Let's now generate our phishing link using lures.  
@@ -961,7 +961,7 @@ Let's now generate our phishing link using lures.
 help lures
 ```
 
-<img width="1510" height="720" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/619564947-c04740cc-9663-4663-9a3b-2e03c032cf95.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021831Z&X-Amz-Expires=300&X-Amz-Signature=4b20dc34c3d92fe259a4d76d04a9d8166007c193f7cfec58f37cac14aba2ae5d&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+![](assets/)
 
 
 To create a lure for your `wordpress.org` phishlet, use this command:  
@@ -970,9 +970,9 @@ To create a lure for your `wordpress.org` phishlet, use this command:
 lures create wordpress.org
 ```
 
-<img width="875" height="59" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621065601-3b239295-7fe7-4ebe-affb-d7038908a0d8.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021854Z&X-Amz-Expires=300&X-Amz-Signature=efad5a6662a3e86432002e619b9245a29c078ea2ea1d78f387868ff15c038bf2&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+![](assets/)
 
-<img width="1361" height="242" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/619566768-63e57e1b-d803-49fe-ae9b-c61e0be84c99.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021904Z&X-Amz-Expires=300&X-Amz-Signature=786bbd74a8796a994e1df611254d0b61736a485dfe84ee2a04bc1bf61e0a9fc3&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+![](assets/)
 
 To get the lure's URL, use this command:  
 
@@ -980,7 +980,7 @@ To get the lure's URL, use this command:
 lures get-url 0
 ```
 
-<img width="867" height="84" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621066880-d0e4c1e3-30fc-4b83-a2c4-75c1ed73f3dd.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021919Z&X-Amz-Expires=300&X-Amz-Signature=0968c6f51bdadbe97c59cbc98d8577ad96119a31224f41b4cf67e889bdbb6460&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+![](assets/)
 
 This is the link you will send to your targets.  
 
@@ -990,7 +990,7 @@ To display all lures, run this command:
 lures
 ```
 
-<img width="1287" height="180" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621066388-266a4d16-3e68-482a-b7bf-a4c6ee9e2c0d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021931Z&X-Amz-Expires=300&X-Amz-Signature=c34057182d23ecbd14c0510644108893fd36cdd4fd35a6be78b3d88890ee5795&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+![](assets/)
 
 > Note that IP addresses will automatically be blacklisted by Evilginx when a user tries to access your phishing website without specifying the lure. This prevents unauthorized access and make detection harder.  
 
@@ -1000,13 +1000,13 @@ lures
 
 To start, let's copy our lure's URL and open it in our browser:    
 
-<img width="1757" height="987" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621068167-c7605a53-f4ef-483d-a1f1-d34bc3441821.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021942Z&X-Amz-Expires=300&X-Amz-Signature=32cdb2764f86df4b6cf835e22ec80ee05cd63cd32f23dc9c746ec80aa6823d67&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+![](assets/)
 
 As you can see, I landed on a Wordpress login page.  
 
 Let's now try to enter some credentials on your Wordpress phishing website:  
 
-<img width="862" height="777" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621070090-f6885246-7cc4-4486-afbf-eee2ec3159f2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T021955Z&X-Amz-Expires=300&X-Amz-Signature=69812b5d3be8bf8be9ee3962c2a28fac6470785b868a7fe43fc24fae0e6bc85f&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+![](assets/)
 
 To check if Evilginx captured the credentials, use this command:  
 
@@ -1025,29 +1025,29 @@ One of the main differences between GoPhish and Evilginx is that GoPhish is a **
 To combine GoPhish and Evilginx, create a new campaign and replace the `URL` section in GoPhish `Campaigns` with your Evilginx's lure URL, then launch your campaign.  
 Here is my lure:  
 
-<img width="956" height="80" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621092189-b81f14fa-abb6-4cb8-a5db-91ace2b4300b.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T022007Z&X-Amz-Expires=300&X-Amz-Signature=482e4700c4407f82342f43837340beaea548235955a2d726be9e52dbdaa04e4b&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+![](assets/)
 
 Replacing it gave me something like this:  
 
-<img width="1392" height="1037" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621093465-5e4a0608-5b43-4b88-896b-6f0565a2ab56.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T022028Z&X-Amz-Expires=300&X-Amz-Signature=320f02dd93e53117654e957e347f8caf1c0cab6e64ed6df0db6e01819cd6478f&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+![](assets/)
 
 Once done, I save my settings and launch the campaign.  
 
 When taking a look at the Campaign dashboard, we can see that the email was successfully sent.  
 
-<img width="1537" height="1005" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621093888-085d9168-18d9-400a-9d30-da2384cb37cf.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T022040Z&X-Amz-Expires=300&X-Amz-Signature=747798bbe018a673d174da3dad6102cffe0c046fc9d47541b00d7310ff547f2c&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+![](assets/)
 
 To verify that we can check the target's email inbox:  
 
-<img width="896" height="362" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621094451-7b8ac322-6356-43db-99d2-d326137767f9.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T022049Z&X-Amz-Expires=300&X-Amz-Signature=4da3d37ee650633483fbe1350a5da36c3910e6a194ee03b781220c9edbff09a6&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+![](assets/)
 
 Let's click on the link in the email:  
 
-<img width="1387" height="947" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621094994-9d9dc9ee-df2c-4fec-9ba8-3feb4b3fe1a1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T022101Z&X-Amz-Expires=300&X-Amz-Signature=aed0d647c5b689d0bd5f0569ed3f3d50868fac0c6bcd20bd3eb8035629d5a7e0&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+![](assets/)
 
 As you can notice, Evilginx captures the target's session. 
 
-<img width="1282" height="190" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/64969369/621096031-227de8bb-2265-4c1a-969f-625dde8a6ac2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260724T022115Z&X-Amz-Expires=300&X-Amz-Signature=a983a3ab11ddd72ce4592d69cc0b33d93575c0fe2c23c59fe06c0cdcdf18087d&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng" />
+![](assets/)
 
 If you're curious to learn more about how to combine Evilginx and GoPhish, refer to [Evilgophish](https://github.com/fin3ss3g0d/evilgophish).  
 
